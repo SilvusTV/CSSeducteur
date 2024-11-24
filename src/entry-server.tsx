@@ -5,6 +5,8 @@ import App from './App';
 
 export function render(url: string) {
   const context = {};
+  console.error = () => {} // Suppress "Not implemented" errors
+  console.warn = () => {}; // Suppress "Not implemented" errors
   try {
     const html = renderToString(
       <StrictMode>
