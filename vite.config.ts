@@ -1,18 +1,20 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react-swc';
-import fs from 'fs';
 
-// @ts-ignore
-export default defineConfig(({ mode }) => ({
+export default defineConfig({
   plugins: [react()],
-  base: '/',
   server: {
-    host: '0.0.0.0',
-    port: 2222,
-    strictPort: true,
-    https: mode === 'development' ? {
-      key: fs.readFileSync('/etc/letsencrypt/live/csseducteur.love/privkey.pem'),
-      cert: fs.readFileSync('/etc/letsencrypt/live/csseducteur.love/fullchain.pem'),
-    } : false,
+    host: '0.0.0.0', // Permet d'accéder depuis le proxy
+    port: 2222, // Forcer le port
+    strictPort: true, // Empêcher le changement automatique de port
+    https: false, // Pas d'HTTPS direct (géré par Apache)
+    hmr: {
+      protocol: 'wss', // Utiliser WebSocket sécurisé
+      host: 'csseducteur.love', // Nom de domaine du site
+      port: 443, // Utiliser le port 443 pour les WebSockets via le reverse proxy
+    },
   },
-}));
+  ssr: {
+    noExternal: ['react', 'react-dom'], // Exemple : force le bundling de certaines dépendances
+  },
+});
