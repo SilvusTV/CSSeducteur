@@ -1,5 +1,8 @@
 import fs from 'node:fs/promises'
 import express from 'express'
+if (process.env.NODE_ENV === 'production') {
+  console.error = () => {};
+}
 
 // Constants
 const isProduction = process.env.NODE_ENV === 'production'
