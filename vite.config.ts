@@ -15,6 +15,6 @@ export default defineConfig({
     },
   },
   ssr: {
-    noExternal: ['react', 'react-dom'], // Exemple : force le bundling de certaines dépendances
+    noExternal: ['react', 'react-dom', 'react-router-dom'], // Exemple : force le bundling de certaines dépendances
   },
 });
