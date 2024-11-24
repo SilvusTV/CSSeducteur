@@ -13,6 +13,16 @@ export default defineConfig({
       host: 'csseducteur.love', // Nom de domaine du site
       port: 443, // Utiliser le port 443 pour les WebSockets via le reverse proxy
     },
+    build: {
+      sourcemap: false, // Assure-toi que les sourcemaps de dev sont désactivés
+      minify: 'esbuild', // Minification adaptée pour React
+      rollupOptions: {
+        output: {
+          // Supprime les annotations de dev
+          intro: `process.env.NODE_ENV = "production";`,
+        },
+      },
+    },
   },
   ssr: {
     noExternal: ['react', 'react-dom', 'react-router-dom'], // Exemple : force le bundling de certaines dépendances
