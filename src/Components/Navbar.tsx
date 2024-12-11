@@ -4,16 +4,17 @@ type NavbarProps = {
   className?: string;
   type?: "primary" | "blank";
 }
-export default function Navbar(props: NavbarProps){
+export default function Navbar(props: NavbarProps) {
   return (
-    <header className={clsx("flex justify-between w-screen",props.type === "blank" ? "bg-transparent" : "default_gradiant")}>
-      <span className={"inline-flex items-center"}>
+    <header
+      className={clsx("flex justify-between w-screen", props.type === "blank" ? "bg-transparent" : "default_gradiant")}>
+      <a href="/" className={"inline-flex items-center"}>
         <img className={"w-32"} src="/blank.png" alt="CSSeducteur logo"/>
         <h1 className={"text-4xl text-white font-extrabold"}>CSSeducteur</h1>
-      </span>
-      <nav className={clsx("flex justify-between items-center h-16 text-white text-xl mr-10",props.className)}>
+      </a>
+      <nav className={clsx("flex justify-between items-center h-16 text-white text-xl mr-10", props.className)}>
         <ul>
-          <li>Les Mémoires du CSSéducteur</li>
+          <li><a href={"/blog"}>Les Mémoires du CSSéducteur</a></li>
         </ul>
       </nav>
     </header>

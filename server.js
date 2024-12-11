@@ -1,6 +1,9 @@
 import fs from 'node:fs/promises'
 import express from 'express'
 
+console.error = () => {} // Suppress "Not implemented" errors
+console.warn = () => {}; // Suppress "Not implemented" errors
+
 // Constants
 const isProduction = process.env.NODE_ENV === 'production'
 const port = process.env.PORT || 2222
