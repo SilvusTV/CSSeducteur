@@ -2,7 +2,7 @@ import {useLocation, useNavigate} from "react-router-dom";
 import {getBlog} from "../Tools/Interaction.ts";
 import '../blog.css'
 import IncludeHTML from "../Components/IncludeHTML.tsx";
-
+import { Helmet } from 'react-helmet';
 export function Blog() {
   const location = useLocation();
   const navigate = useNavigate();
@@ -11,16 +11,16 @@ export function Blog() {
   if (blog === undefined) {
     navigate("/blogs");
   }
-  console.log(document.getElementsByName("head")[0]);
   return (
-    <div id={"blog-page"} className={"bg-white rounded-3xl w-10/12 min-h-full self-center m-auto my-5 flex flex-col relative"}>
-      {/*<Helmet>
+    <div id={"blog-page"}
+         className={"bg-white rounded-3xl w-10/12 min-h-full self-center m-auto my-5 flex flex-col relative"}>
+      <Helmet>
         <title>CSSéducteur | {blog!.title}</title>
         <meta name="description" content={blog!.metaDescription}/>
         <meta name="keywords" content={blog!.metaKeywords}/>
         <meta name="author" content={"CSSeducteur"}/>
         <link rel="canonical" href={"https://csseducteur.love/blog/" + blog!.slug}/>
-      </Helmet>*/}
+      </Helmet>
       <a href="/blogs" className={"absolute z-10 m-8 text-xl"}>← retour</a>
       <img
         className={"w-full h-96 rounded-t-3xl object-cover object-top"}

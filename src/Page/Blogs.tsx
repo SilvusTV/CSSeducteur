@@ -4,7 +4,6 @@ import {getBlogs} from "../Tools/Interaction.ts";
 
 export default function Blogs() {
   const blogs = getBlogs();
-  console.log(blogs);
   return (
     <div className={"flex flex-col items-center h-screen"}>
       <Navbar type={"blank"}/>
