@@ -13,7 +13,9 @@ export default function Navbar(props: NavbarProps) {
         <h1 className={"text-4xl text-white font-extrabold"}>CSSeducteur</h1>
       </a>
       <nav className={clsx("flex justify-between items-center h-16 text-white text-xl mr-10", props.className)}>
-        <ul>
+        <ul className={"flex-row flex gap-3"}>
+          <li><a href={"/about"}>Le Charme Révélé</a></li>
+          <li><a>|</a></li>
           <li><a href={"/blog"}>Les Mémoires du CSSéducteur</a></li>
         </ul>
       </nav>

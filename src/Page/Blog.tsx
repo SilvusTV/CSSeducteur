@@ -16,7 +16,7 @@ export function Blog() {
   const uploadDate = new Date(blog!.uploadDate + 'T00:00:00Z');
   return (
     <div id={"blog-page"}
-         className={"bg-white rounded-3xl w-10/12 min-h-full self-center m-auto my-5 flex flex-col relative"}>
+         className={"bg-white rounded-3xl w-9/12 min-h-full self-center m-auto my-5 flex flex-col relative"}>
       <MetaHead
         title={blog!.title}
         url={blog!.slug}
@@ -25,7 +25,7 @@ export function Blog() {
         metaImage={blog!.imageName}
         blog={true}
       />
-      <a href="/blogs" className={"absolute z-10 m-8 text-xl"}>← retour</a>
+      <a href="/blog" className={"absolute z-10 m-8 text-xl"}>← retour</a>
       <img
         className={"w-full h-96 rounded-t-3xl object-cover object-top"}
         src={'/blog/Pictures/' + blog!.imageName + '/banner.webp'} alt={blog!.title}
