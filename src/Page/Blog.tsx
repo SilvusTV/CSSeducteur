@@ -24,9 +24,10 @@ export function Blog() {
       <a href="/blogs" className={"absolute z-10 m-8 text-xl"}>← retour</a>
       <img
         className={"w-full h-96 rounded-t-3xl object-cover object-top"}
-        src={'/blog/Pictures/' + blog!.imageName} alt={blog!.title}/>
+        src={'/blog/Pictures/' + blog!.imageName+'/banner.webp'} alt={blog!.title}/>
       <h1 className={"text-2xl font-extrabold self-center -translate-y-12"}>{blog!.title}</h1>
       <IncludeHTML className={"text-lg p-5"} fileName={blog!.slug}/>
+      <p className={"w-11/12 mx-auto text-end my-2"}>Article proposer par <a href="/">CSSeducteur</a></p>
     </div>
   );
 }

@@ -1,0 +1,3 @@
+#Example of how to set all crawlers as user-agent
+User-agent: *
+Sitemap: https://csseducteur.love/sitemaps/sitemap.xml
