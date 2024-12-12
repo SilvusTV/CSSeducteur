@@ -5,4 +5,5 @@ export interface BlogType {
   imageName: string;
   metaDescription: string;
   metaKeywords: string;
+  uploadDate: string;
 }

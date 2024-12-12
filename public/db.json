@@ -1,10 +1,20 @@
 [
   {
+    "id": 2,
+    "title": "Tailwind CSS : l'amant minimaliste, prêt à tout pour vous simplifier la vie",
+    "slug": "tailwind-css-lamant-minimaliste-pret-a-tout-pour-vous-simplifier-la-vie",
+    "imageName": "tailwind-css-lamant-minimaliste-pret-a-tout-pour-vous-simplifier-la-vie",
+    "metaDescription": "Découvrez pourquoi Tailwind CSS, le framework minimaliste par excellence, séduit les développeurs en quête de simplicité et d'efficacité. Avec ses classes utilitaires, sa rapidité d'intégration et une communauté active, il est l'outil parfait pour des designs sur-mesure sans compromis. Plongez dans ses atouts et laissez-vous charmer.",
+    "metaKeywords": "Tailwind CSS, framework CSS, classes utilitaires, design minimaliste, développement web, outils front-end, Tailwind Play, système de grille, responsive design, community-driven, stylisation rapide, tutoriels Tailwind, personnalisation CSS, frameworks modernes, tendances CSS",
+    "uploadDate": "2024-12-12"
+  },
+  {
     "id": 1,
     "title": "Bootstrap : le séducteur classique qui ne se démode jamais",
     "slug": "bootstrap-le-seducteur-classique-qui-ne-se-demode-jamais",
     "imageName": "bootstrap-le-seducteur-classique-qui-ne-se-demode-jamais",
     "metaDescription": "Découvrez pourquoi Bootstrap est le framework CSS séducteur classique qui reste incontournable pour le développement web, avec sa flexibilité et sa robustesse.",
-    "metaKeywords": "Bootstrap, framework CSS, développement web, séduction, web design, responsive, front-end"
+    "metaKeywords": "Bootstrap, framework CSS, développement web, séduction, web design, responsive, front-end",
+    "uploadDate": "2024-12-11"
   }
 ]

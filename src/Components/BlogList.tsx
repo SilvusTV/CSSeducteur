@@ -10,8 +10,8 @@ export default function BlogList(props: BlogListProps) {
     <div className={"flex flex-col w-screen p-5 gap-5 items-center"}>
       {props.blogs.map((blog: BlogType) => {
         return (
-          <a className={"w-full justify-center flex"} href={"/blog/"+blog.slug}>
-            <BlogListItem imageName={blog.imageName} title={blog.title} metaDescription={blog.metaDescription}/>
+          <a className={"w-9/12 justify-center flex"} href={"/blog/"+blog.slug}>
+            <BlogListItem imageName={blog.imageName} title={blog.title} metaDescription={blog.metaDescription} uploadDate={blog.uploadDate}/>
           </a>
         )
       })}
