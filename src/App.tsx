@@ -1,8 +1,9 @@
 import {Route, Routes} from "react-router-dom";
 import Home from "./Page/Home.tsx";
 import Blogs from "./Page/Blogs.tsx";
-import {Blog} from "./Page/Blog.tsx";
+import Blog from "./Page/Blog.tsx";
 import About from "./Page/About.tsx";
+import Contact from "./Page/Contact.tsx";
 
 export default function App() {
 
@@ -23,6 +24,10 @@ export default function App() {
       <Route
         path={"/about"}
         element={<About/>}
+      />
+      <Route
+        path={"/contact"}
+        element={<Contact/>}
       />
     </Routes>
   )

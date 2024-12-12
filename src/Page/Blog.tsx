@@ -4,7 +4,7 @@ import '../blog.css'
 import IncludeHTML from "../Components/IncludeHTML.tsx";
 import MetaHead from "../Components/MetaHead.tsx";
 
-export function Blog() {
+export default function Blog() {
   const location = useLocation();
   const navigate = useNavigate();
   const slug = location.pathname.split("/")[2];

@@ -4,9 +4,9 @@ import Footer from "../Components/Footer.tsx";
 
 export default function About() {
   return (
-    <div className={"flex flex-col items-center h-screen"}>
+    <div className={"flex flex-col items-center justify-between min-h-screen"}>
       <MetaHead
-        title={"Le Charme Révélé - Découvrez l'essence de CSSéducteur"}
+        title={"CSSeducteur : Le Charme Révélé - Découvrez l'essence de CSSéducteur"}
         url={"https://csseducteur.love/about"}
         metaDescription={"Plongez dans l'univers de CSSéducteur avec 'Le Charme Révélé'. Découvrez notre mission, nos valeurs et notre passion pour vous guider vers le framework CSS parfait."}
         metaKeywords={"CSSéducteur, frameworks CSS, à propos CSS, développement web, choisir framework CSS, design responsive, tendances web, Bootstrap, Tailwind CSS, communauté front-end, sublimer projets web, outils front-end, valeurs CSSéducteur"}
