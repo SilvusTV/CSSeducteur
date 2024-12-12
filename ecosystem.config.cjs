@@ -2,7 +2,8 @@ module.exports = {
   apps: [
     {
       name: 'CSSeducteur', // Nom de l'application
-      script: 'server.js', // Point d'entrée SSR
+      script: 'npm', // Point d'entrée SSR
+      args: 'run preview', // Arguments du script
       instances: '1', // Utilise tous les cœurs disponibles
       exec_mode: 'cluster',
     },
