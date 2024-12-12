@@ -16,9 +16,9 @@ export default function Contact() {
       <section className={"bg-white rounded-3xl w-9/12 self-center m-auto mt-5 mb-10 flex flex-col relative p-3"}>
         <header>
           <h1 className={"text-5xl mb-3 font-extrabold text-center"}>Un Breakpoint dans votre Journée ?</h1>
-          <p className={"text-2xl my-3 text-center"}>
+          <h2 className={"text-2xl my-3 text-center"}>
             Connectez-vous avec CSSéducteur et échangez sur le CSS qui vous séduit le plus.
-          </p>
+          </h2>
         </header>
         <div className={"flex flex-col gap-5 items-center text-center my-8"}>
           <a href={"https://x.com/CSSeducteurlove"}
