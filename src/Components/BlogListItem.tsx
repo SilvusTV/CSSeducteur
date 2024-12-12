@@ -12,7 +12,7 @@ export default function BlogListItem(props: BlogListItemProps) {
       <img className={"w-auto h-full mr-5 aspect-square object-cover rounded-xl"} src={'/blog/Pictures/' + props.imageName+'/preview.webp'} alt={props.title}/>
       <div className={"h-full flex justify-between flex-col"}>
         <div >
-          <h1 className={"text-2xl font-extrabold mb-5"}>{props.title}</h1>
+          <h2 className={"text-2xl font-extrabold mb-5"}>{props.title}</h2>
           <desc className={"text-lg"}>{props.metaDescription}</desc>
 
         </div>
