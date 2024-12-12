@@ -15,9 +15,9 @@ export default function Navbar(props: NavbarProps) {
       <nav className={clsx("flex justify-between items-center h-16 text-white text-xl mr-10", props.className)}>
         <ul className={"flex-row flex gap-3"}>
           <li><a href={"/contact"}>Un Breakpoint dans votre Journée ?</a></li>
-          <li><a>|</a></li>
+          <li>|</li>
           <li><a href={"/about"}>Le Charme Révélé</a></li>
-          <li><a>|</a></li>
+          <li>|</li>
           <li><a href={"/blog"}>Les Mémoires du CSSéducteur</a></li>
         </ul>
       </nav>
