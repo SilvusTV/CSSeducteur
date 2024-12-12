@@ -19,10 +19,11 @@ export function Blog() {
          className={"bg-white rounded-3xl w-10/12 min-h-full self-center m-auto my-5 flex flex-col relative"}>
       <MetaHead
         title={blog!.title}
-        slug={blog!.slug}
+        url={blog!.slug}
         metaDescription={blog!.metaDescription}
         metaKeywords={blog!.metaKeywords}
         metaImage={blog!.imageName}
+        blog={true}
       />
       <a href="/blogs" className={"absolute z-10 m-8 text-xl"}>← retour</a>
       <img
