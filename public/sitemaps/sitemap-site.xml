@@ -3,25 +3,25 @@
     <url>
         <loc>https://csseducteur.love/</loc>
         <lastmod>2024-12-12</lastmod>
-        <changeFreq>weekly</changeFreq>
+        <changefreq>weekly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
         <loc>https://csseducteur.love/blog</loc>
         <lastmod>2024-12-15</lastmod>
-        <changeFreq>daily</changeFreq>
+        <changefreq>daily</changefreq>
         <priority>1</priority>
     </url>
     <url>
         <loc>https://csseducteur.love/about</loc>
         <lastmod>2024-12-12</lastmod>
+        <changefreq>monthly</changefreq>
         <priority>0.5</priority>
-        <changeFreq>monthly</changeFreq>
     </url>
     <url>
         <loc>https://csseducteur.love/contact</loc>
         <lastmod>2024-12-12</lastmod>
+        <changefreq>monthly</changefreq>
         <priority>0.8</priority>
-        <changeFreq>monthly</changeFreq>
     </url>
 </urlset>
