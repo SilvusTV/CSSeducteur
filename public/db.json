@@ -1,5 +1,15 @@
 [
   {
+    "id": 3,
+    "title": "Veille technologique : comment séduire les recruteurs grâce à vos compétences CSS",
+    "slug": "veille-technologique-comment-seduire-les-recruteurs-grace-a-vos-competences-css",
+    "imageName": "veille-technologique-comment-seduire-les-recruteurs-grace-a-vos-competences-css",
+    "metaDescription": "Découvrez comment séduire les recruteurs grâce à vos compétences CSS et une veille technologique active. Apprenez à optimiser vos chances en alternance avec des outils modernes et des conseils pratiques.",
+    "metaKeywords": "CSS, veille technologique, alternance, recruteurs, compétences CSS, séduire recruteurs, développement web, framework CSS, design moderne, alternance développement, outils front-end, tendances CSS, portfolio en ligne, CodePen, GitHub, soft skills, interview alternance",
+    "uploadDate": "2024-12-15"
+
+  },
+  {
     "id": 2,
     "title": "Tailwind CSS : l'amant minimaliste, prêt à tout pour vous simplifier la vie",
     "slug": "tailwind-css-lamant-minimaliste-pret-a-tout-pour-vous-simplifier-la-vie",
