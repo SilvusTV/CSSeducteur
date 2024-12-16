@@ -1,0 +1,124 @@
+<section>
+    <h2>Introduction : Pourquoi suivre les tendances CSS en 2024 ?</h2>
+    <p>
+        Dans un monde où le web évolue sans cesse, les développeurs doivent rester au sommet de leur art. Le CSS, langage de style par excellence, continue d'évoluer avec des fonctionnalités innovantes qui transforment la création d’interfaces modernes.
+        <strong>Rester à jour</strong> n'est plus une option, c'est une nécessité pour séduire les recruteurs et se démarquer, surtout en période d'alternance.
+    </p>
+    <p>
+        Découvrons ensemble les tendances CSS qui vont redéfinir l'avenir du web et comment elles peuvent vous aider à <em>devenir irrésistible</em> auprès des employeurs. 🚀
+    </p>
+</section>
+
+<section>
+    <h2>1. CSS Container Queries : une révolution pour le responsive design</h2>
+    <p>
+        Jusqu’ici, le responsive design reposait principalement sur les <strong>media queries</strong>, qui ciblent la taille de la fenêtre du navigateur. Mais en 2024, les <strong>container queries</strong> s'imposent comme une révolution, permettant d'adapter le style des éléments en fonction de la taille de leur conteneur plutôt que de la fenêtre globale.
+    </p>
+    <pre><code>
+.card {
+    container-type: inline-size;
+}
+
+.card h2 {
+    font-size: 1.5rem;
+}
+
+@container (min-width: 600px) {
+    .card h2 {
+        font-size: 2rem;
+    }
+}
+        </code></pre>
+    <p>
+        Cela offre une flexibilité inédite pour le design modulaire. Vous pouvez en savoir plus sur <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Container_Queries" target="_blank">MDN Web Docs</a>.
+    </p>
+</section>
+
+<section>
+    <h2>2. Les nouveaux pseudo-selecteurs CSS : :has() et compagnie</h2>
+    <p>
+        Les nouvelles pseudo-classes comme <code>:has()</code> ouvrent la voie à des sélections plus intuitives et puissantes. Par exemple, la pseudo-classe <strong>:has()</strong> permet de cibler un élément en fonction de ses enfants.
+    </p>
+    <pre><code>
+article:has(img) {
+    border: 2px solid #0088cc;
+    padding: 10px;
+}
+        </code></pre>
+    <p>
+        Ici, si un article contient une image, il reçoit un style spécifique. Cela permet de simplifier le CSS et d'améliorer la lisibilité de votre code.
+    </p>
+</section>
+
+<section>
+    <h2>3. L’importance de la performance : CSS moderne et optimisation</h2>
+    <p>
+        Avec les nouvelles exigences de performance web, optimiser son CSS devient crucial. En alternance, démontrer votre capacité à utiliser des outils comme <strong>Tailwind CSS</strong> ou les nouvelles fonctionnalités de <strong>PostCSS</strong> peut faire toute la différence.
+    </p>
+    <p>
+        Quelques bonnes pratiques à adopter :
+    <ul>
+        <li>Utilisez des <a href="https://tailwindcss.com/" target="_blank">frameworks utilitaires</a> pour éviter le surpoids de styles.</li>
+        <li>Appliquez le principe du <strong>Critical CSS</strong> pour charger uniquement les styles essentiels.</li>
+        <li>Optimisez vos animations CSS avec des propriétés comme <code>transform</code> et <code>opacity</code>.</li>
+    </ul>
+    </p>
+    <p>
+        En savoir plus sur les bonnes pratiques via <a href="https://web.dev/learn/css/" target="_blank">Web.dev</a>.
+    </p>
+</section>
+
+<section>
+    <h2>4. L'essor du CSS Grid et de Flexbox combinés</h2>
+    <p>
+        En 2024, CSS Grid et Flexbox continuent de dominer pour les mises en page complexes. Mais la vraie tendance réside dans leur <strong>combinaison</strong>. Par exemple :
+    </p>
+    <pre><code>
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+        </code></pre>
+    <p>
+        Avec ce type de combinaison, les développeurs gagnent en flexibilité pour créer des interfaces fluides et responsives.
+    </p>
+</section>
+
+<section>
+    <h2>5. Pourquoi la veille technologique est un atout majeur en alternance ?</h2>
+    <p>
+        Si vous êtes en alternance ou en recherche, vous devez comprendre que les recruteurs valorisent les candidats capables de <strong>rester informés</strong> des dernières tendances CSS. Pourquoi ?
+    <ul>
+        <li>Une veille active démontre votre <strong>curiosité</strong> et votre engagement.</li>
+        <li>Elle vous permet d’apporter des solutions modernes à des problèmes existants.</li>
+        <li>Elle reflète votre capacité d’adaptation, essentielle pour tout alternant.</li>
+    </ul>
+    </p>
+    <p>
+        Pour faciliter votre veille, abonnez-vous à des ressources telles que :
+    <ul>
+        <li><a href="https://css-tricks.com" target="_blank">CSS-Tricks</a></li>
+        <li><a href="https://smashingmagazine.com" target="_blank">Smashing Magazine</a></li>
+        <li><a href="https://developer.chrome.com" target="_blank">Chrome Developers</a></li>
+    </ul>
+    </p>
+</section>
+
+<section>
+    <h2>Conclusion : CSS, un charme technologique en constante évolution</h2>
+    <p>
+        Les tendances CSS de demain apportent des solutions plus flexibles, performantes et adaptées aux besoins modernes du web. Que ce soit avec les container queries, les nouvelles pseudo-classes ou l'optimisation des performances, il est essentiel de rester à jour.
+    </p>
+    <p>
+        En alternance, la veille technologique est votre meilleure alliée pour impressionner les recruteurs et vous démarquer sur le marché. Alors, plongez dans les nouveautés CSS, testez-les dans vos projets et montrez que vous êtes prêt à relever les défis de demain !
+    </p>
+</section>
+<footer>
+    <p>Pour aller plus loin, explorez les ressources mentionnées ou suivez <a href="https://developer.mozilla.org/en-US/" target="_blank">MDN Web Docs</a> pour rester à la pointe du CSS.</p>
+</footer>

@@ -1,5 +1,15 @@
 [
   {
+    "id": 4,
+    "title": " Les tendances CSS de demain : restez à la pointe du charme technologique",
+    "slug": "les-tendances-css-demain-restez-pointe-charme-technologique",
+    "imageName": "les-tendances-css-demain-restez-pointe-charme-technologique",
+    "metaDescription": "Découvrez les tendances CSS incontournables de 2024 : container queries, pseudo-classes avancées, optimisations modernes. Restez à jour, maîtrisez les nouveautés et séduisez les recruteurs grâce à vos compétences CSS en alternance !",
+    "metaKeywords": "CSS tendances 2024, nouveautés CSS, container queries, pseudo-classes CSS, Flexbox et CSS Grid, optimisation CSS, veille technologique CSS, compétences CSS alternance, séduire recruteurs développement web, CSS performance, frameworks CSS modernes, Tailwind CSS 2024, alternance développement web",
+    "uploadDate": "2024-12-16"
+
+  },
+  {
     "id": 3,
     "title": "Veille technologique : comment séduire les recruteurs grâce à vos compétences CSS",
     "slug": "veille-technologique-comment-seduire-les-recruteurs-grace-a-vos-competences-css",
