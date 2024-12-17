@@ -1,7 +1,17 @@
 [
   {
+    "id": 5,
+    "title": "Tailwind CSS v4.0 : Performances et Modernité",
+    "slug": "tailwind-css-v4-0-performances-modernite",
+    "imageName": "tailwind-css-v4-0-performances-modernite",
+    "metaDescription": "Découvrez les nouveautés révolutionnaires de Tailwind CSS v4.0 : moteur Oxide ultra-performant, configuration simplifiée, support des fonctionnalités modernes CSS et variantes composables. Optimisez vos projets front-end dès aujourd'hui.",
+    "metaKeywords": "Tailwind CSS, Tailwind CSS v4, moteur Oxide, nouveautés Tailwind CSS, performances CSS, configuration CSS, nesting CSS, variantes Tailwind, développement front-end, CSS moderne, @theme Tailwind, requêtes conteneur CSS, cascade native CSS, color-mix CSS, optimisation front-end",
+    "uploadDate": "2024-12-17"
+
+  },
+  {
     "id": 4,
-    "title": " Les tendances CSS de demain : restez à la pointe du charme technologique",
+    "title": "Les tendances CSS de demain : restez à la pointe du charme technologique",
     "slug": "les-tendances-css-demain-restez-pointe-charme-technologique",
     "imageName": "les-tendances-css-demain-restez-pointe-charme-technologique",
     "metaDescription": "Découvrez les tendances CSS incontournables de 2024 : container queries, pseudo-classes avancées, optimisations modernes. Restez à jour, maîtrisez les nouveautés et séduisez les recruteurs grâce à vos compétences CSS en alternance !",

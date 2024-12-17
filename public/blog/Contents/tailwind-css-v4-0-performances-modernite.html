@@ -1,0 +1,76 @@
+<section>
+    <h2>Nouveau moteur Oxide</h2>
+    <p>Tailwind CSS v4.0 est doté d'un moteur entièrement réécrit, nommé <strong>Oxide</strong>, conçu pour améliorer
+        considérablement les performances :</p>
+    <ul>
+        <li><strong>Performances accrues</strong> : Les compilations complètes sont jusqu'à 10 fois plus rapides.</li>
+        <li><strong>Empreinte réduite</strong> : Réduction de 35 % de la taille installée.</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Chaîne d'outils unifiée</h2>
+    <p>La version 4.0 intègre directement des fonctionnalités auparavant gérées par des plugins externes :</p>
+    <ul>
+        <li><strong>Gestion des @import</strong> sans postcss-import.</li>
+        <li>Support natif du <strong>nesting CSS</strong>.</li>
+        <li>Ajout automatique des préfixes vendeurs.</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Conçu pour le web moderne</h2>
+    <p>Cette version adopte les fonctionnalités modernes CSS comme :</p>
+    <ul>
+        <li><strong>Couches de cascade</strong> via <code>@layer</code>.</li>
+        <li>Propriétés CSS personnalisées avec <code>@property</code>.</li>
+        <li>Support des requêtes conteneur via <code>@min-*</code> et <code>@max-*</code>.</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Variantes composables</h2>
+    <p>Les nouvelles variantes offrent une <strong>expressivité sans précédent</strong> :</p>
+    <pre>
+.group-has-focus:opacity-100
+.group-not-has-peer-not-data-active:underline
+            </pre>
+</section>
+
+<section>
+    <h2>Configuration sans fichier JavaScript</h2>
+    <p>Personnalisez votre thème directement avec CSS :</p>
+    <pre>
+        <code class="language-css">
+@import "tailwindcss";
+
+@theme {
+  --font-family-display: "Satoshi", "sans-serif";
+  --color-neon-pink: oklch(71.7% 0.25 360);
+  --color-neon-cyan: oklch(91.3% 0.139 195.8);
+}
+            </code>
+            </pre>
+</section>
+
+<section>
+    <h2>Ressources supplémentaires</h2>
+    <ul>
+        <li><a href="https://www.tailflows.com/blog/tailwind-css-v4-va-tout-changer" target="_blank">Article
+            détaillé</a></li>
+        <li><a href="https://tailwindcss.com/blog/tailwindcss-v4-alpha" target="_blank">Annonce officielle</a></li>
+    </ul>
+
+    <h2>Vidéo YouTube recommandée</h2>
+    <div style="display: flex; flex-direction: column; gap: 1em;">
+        <iframe src="https://www.youtube.com/embed/ZbkARnRwVfk" title="Vidéo explicative"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+    </div>
+</section>
+
+<footer>
+    <p class="meta">Source : <a href="https://tailwindcss.com/" target="_blank">Site officiel de Tailwind
+        CSS</a></p>
+</footer>
