@@ -1,5 +1,15 @@
 [
   {
+    "id": 6,
+    "title": "Les Tendances Web Design de l'Année 2024 : Un Récapitulatif",
+    "slug": "les-tendances-web-design-lannee-2024-un-recapitulatif",
+    "imageName": "les-tendances-web-design-lannee-2024-un-recapitulatif",
+    "metaDescription": "Découvrez les tendances incontournables du web design en 2024 : courants artistiques, outils innovants comme Tailwind CSS, Figma et Framer, et des exemples pratiques pour moderniser vos projets.",
+    "metaKeywords": "web design 2024, tendances web design, Bento design, brutalisme raffiné, conception 3D, Tailwind CSS, Figma, Framer, ChatGPT IA design, outils web design, exemples code web design, innovations design web, CSS moderne, tendances UI UX",
+    "uploadDate": "2024-12-18"
+
+  },
+  {
     "id": 5,
     "title": "Tailwind CSS v4.0 : Performances et Modernité",
     "slug": "tailwind-css-v4-0-performances-modernite",
