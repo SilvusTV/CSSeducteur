@@ -14,8 +14,7 @@
     <p>
         Jusqu’ici, le responsive design reposait principalement sur les <strong>media queries</strong>, qui ciblent la taille de la fenêtre du navigateur. Mais en 2024, les <strong>container queries</strong> s'imposent comme une révolution, permettant d'adapter le style des éléments en fonction de la taille de leur conteneur plutôt que de la fenêtre globale.
     </p>
-    <pre><code>
-.card {
+    <pre><code class="language-css">.card {
     container-type: inline-size;
 }
 
@@ -27,8 +26,7 @@
     .card h2 {
         font-size: 2rem;
     }
-}
-        </code></pre>
+}</code></pre>
     <p>
         Cela offre une flexibilité inédite pour le design modulaire. Vous pouvez en savoir plus sur <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Container_Queries" target="_blank">MDN Web Docs</a>.
     </p>
@@ -39,12 +37,10 @@
     <p>
         Les nouvelles pseudo-classes comme <code>:has()</code> ouvrent la voie à des sélections plus intuitives et puissantes. Par exemple, la pseudo-classe <strong>:has()</strong> permet de cibler un élément en fonction de ses enfants.
     </p>
-    <pre><code>
-article:has(img) {
+    <pre><code class="language-css">article:has(img) {
     border: 2px solid #0088cc;
     padding: 10px;
-}
-        </code></pre>
+}</code></pre>
     <p>
         Ici, si un article contient une image, il reçoit un style spécifique. Cela permet de simplifier le CSS et d'améliorer la lisibilité de votre code.
     </p>
@@ -73,8 +69,7 @@ article:has(img) {
     <p>
         En 2024, CSS Grid et Flexbox continuent de dominer pour les mises en page complexes. Mais la vraie tendance réside dans leur <strong>combinaison</strong>. Par exemple :
     </p>
-    <pre><code>
-.container {
+    <pre><code class="language-css">.container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
@@ -83,8 +78,7 @@ article:has(img) {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-        </code></pre>
+}</code></pre>
     <p>
         Avec ce type de combinaison, les développeurs gagnent en flexibilité pour créer des interfaces fluides et responsives.
     </p>

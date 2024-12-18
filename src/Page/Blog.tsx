@@ -25,7 +25,7 @@ export default function Blog() {
         metaImage={blog!.imageName}
         blog={true}
       />
-      <a href="/blog" className={"absolute z-10 m-8 text-xl"}>← retour</a>
+      <a href="/blog" className={"absolute z-10 m-8 text-base bg-white rounded-3xl py-2 px-4"}>← retour</a>
       <img
         className={"w-full h-96 rounded-t-3xl object-cover object-top"}
         src={'/blog/Pictures/' + blog!.imageName + '/banner.webp'} alt={blog!.title}
