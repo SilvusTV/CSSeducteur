@@ -1,0 +1,204 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Quel est ton style de développement préféré ?",
+      "answers": {
+        "A": ["Tailwind CSS", "Tachyons"],
+        "B": ["Bootstrap", "Foundation"],
+        "C": ["Materialize", "Chakra UI"],
+        "D": ["CSS Houdini", "Atomic CSS"]
+      }
+    },
+    {
+      "id": 2,
+      "question": "Comment abordes-tu un projet complexe ?",
+      "answers": {
+        "A": ["Tailwind CSS", "Flexbox"],
+        "B": ["Bootstrap", "Foundation"],
+        "C": ["Materialize", "CSS Grid Layout"],
+        "D": ["Windi CSS", "Atomic CSS"]
+      }
+    },
+    {
+      "id": 3,
+      "question": "Quel type de design préfères-tu dans une interface utilisateur ?",
+      "answers": {
+        "A": ["Pico.css", "Skeleton"],
+        "B": ["Bootstrap", "Bulma"],
+        "C": ["Materialize", "Chakra UI"],
+        "D": ["CSS Houdini", "Vanilla CSS"]
+      }
+    },
+    {
+      "id": 4,
+      "question": "Que fais-tu face à un bug ?",
+      "answers": {
+        "A": ["Tailwind CSS", "Tachyons"],
+        "B": ["Bootstrap", "Sass"],
+        "C": ["Vanilla CSS", "PostCSS"],
+        "D": ["Foundation", "Open Props"]
+      }
+    },
+    {
+      "id": 5,
+      "question": "Quelle est ton approche pour apprendre une nouvelle technologie ?",
+      "answers": {
+        "A": ["Tailwind CSS", "Tachyons"],
+        "B": ["Bootstrap", "Foundation"],
+        "C": ["Materialize", "Chakra UI"],
+        "D": ["CSS Houdini", "PostCSS"]
+      }
+    },
+    {
+      "id": 6,
+      "question": "Comment préfères-tu organiser ton code CSS ?",
+      "answers": {
+        "A": ["Tailwind CSS", "Tachyons"],
+        "B": ["Bulma", "Chakra UI"],
+        "C": ["BEM", "Atomic CSS"],
+        "D": ["Vanilla CSS", "CSS Houdini"]
+      }
+    },
+    {
+      "id": 7,
+      "question": "Quel est ton framework front-end préféré ?",
+      "answers": {
+        "A": ["Styled Components", "Emotion"],
+        "B": ["Chakra UI", "Ant Design"],
+        "C": ["Vanilla CSS", "Materialize"],
+        "D": ["Flexbox", "CSS Grid Layout"]
+      }
+    },
+    {
+      "id": 8,
+      "question": "Quel type de typographie préfères-tu pour tes projets ?",
+      "answers": {
+        "A": ["Tailwind CSS", "Pico.css"],
+        "B": ["Bootstrap", "Foundation"],
+        "C": ["Materialize", "Chakra UI"],
+        "D": ["CSS Houdini", "PostCSS"]
+      }
+    },
+    {
+      "id": 9,
+      "question": "Comment choisis-tu une palette de couleurs pour un projet ?",
+      "answers": {
+        "A": ["Tailwind CSS", "Pico.css"],
+        "B": ["Bootstrap", "Bulma"],
+        "C": ["Materialize", "Chakra UI"],
+        "D": ["CSS Houdini", "Vanilla CSS"]
+      }
+    },
+    {
+      "id": 10,
+      "question": "Quel est ton environnement de travail idéal ?",
+      "answers": {
+        "A": ["Vanilla CSS", "Tailwind CSS"],
+        "B": ["Bootstrap", "Foundation"],
+        "C": ["Materialize", "Chakra UI"],
+        "D": ["CSS Houdini", "Atomic CSS"]
+      }
+    },
+    {
+      "id": 11,
+      "question": "Quel genre d'application préfères-tu développer ?",
+      "answers": {
+        "A": ["Tailwind CSS", "Pico.css"],
+        "B": ["Bootstrap", "Clarity"],
+        "C": ["Materialize", "Chakra UI"],
+        "D": ["CSS Houdini", "CSS Grid Layout"]
+      }
+    },
+    {
+      "id": 12,
+      "question": "Quel est ton rôle idéal dans une équipe de développement ?",
+      "answers": {
+        "A": ["Tailwind CSS", "Bootstrap"],
+        "B": ["Foundation", "Chakra UI"],
+        "C": ["Materialize", "Emotion"],
+        "D": ["CSS Houdini", "Atomic CSS"]
+      }
+    },
+    {
+      "id": 13,
+      "question": "Comment gères-tu le stress dans un projet ?",
+      "answers": {
+        "A": ["Tailwind CSS", "Tachyons"],
+        "B": ["Bootstrap", "Foundation"],
+        "C": ["Materialize", "PostCSS"],
+        "D": ["CSS Houdini", "Atomic CSS"]
+      }
+    },
+    {
+      "id": 14,
+      "question": "Quel est ton rapport à la documentation ?",
+      "answers": {
+        "A": ["Bootstrap", "Foundation"],
+        "B": ["Sass", "PostCSS"],
+        "C": ["Tailwind CSS", "Tachyons"],
+        "D": ["Vanilla CSS", "CSS Houdini"]
+      }
+    },
+    {
+      "id": 15,
+      "question": "Quel type de framework CSS utilises-tu le plus ?",
+      "answers": {
+        "A": ["Tailwind CSS", "Tachyons"],
+        "B": ["Bootstrap", "Bulma"],
+        "C": ["Materialize", "Chakra UI"],
+        "D": ["Vanilla CSS", "CSS Houdini"]
+      }
+    },
+    {
+      "id": 16,
+      "question": "Comment choisis-tu une librairie CSS pour un projet ?",
+      "answers": {
+        "A": ["Tailwind CSS", "Tachyons"],
+        "B": ["Bootstrap", "Foundation"],
+        "C": ["Materialize", "Chakra UI"],
+        "D": ["CSS Houdini", "Vanilla CSS"]
+      }
+    },
+    {
+      "id": 17,
+      "question": "Quel type de mise en page préfères-tu utiliser ?",
+      "answers": {
+        "A": ["Flexbox", "Vanilla CSS"],
+        "B": ["CSS Grid Layout", "Foundation"],
+        "C": ["CSS Houdini", "Atomic CSS"],
+        "D": ["Bootstrap", "Bulma"]
+      }
+    },
+    {
+      "id": 18,
+      "question": "Quelle est ton opinion sur les animations CSS ?",
+      "answers": {
+        "A": ["CSS Houdini", "Materialize"],
+        "B": ["Bootstrap", "Bulma"],
+        "C": ["Vanilla CSS", "PostCSS"],
+        "D": ["Skeleton", "Pico.css"]
+      }
+    },
+    {
+      "id": 19,
+      "question": "Comment préfères-tu gérer les responsive designs ?",
+      "answers": {
+        "A": ["Tailwind CSS", "Tachyons"],
+        "B": ["Bootstrap", "Foundation"],
+        "C": ["Materialize", "Chakra UI"],
+        "D": ["CSS Houdini", "Atomic CSS"]
+      }
+    },
+    {
+      "id": 20,
+      "question": "Que penses-tu des préprocesseurs CSS comme Sass ?",
+      "answers": {
+        "A": ["Sass", "Less"],
+        "B": ["PostCSS", "Foundation"],
+        "C": ["Tailwind CSS", "Vanilla CSS"],
+        "D": ["CSS Houdini", "Atomic CSS"]
+      }
+    }
+  ]
+}
