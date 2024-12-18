@@ -1,40 +1,48 @@
-#blog-page{
-    header{
-        p{
-            font-size:80% ;
+#blog-page {
+    header {
+        p {
+            font-size: 80%;
             width: 100%;
             text-align: end;
-            padding-right: 2rem ;
+            padding-right: 2rem;
         }
     }
-     section{
-         margin:1.250rem 0 ;
-     }
-    h2{
+
+    section {
+        margin: 1.250rem 0;
+    }
+
+    h2 {
         font-size: 1.250rem;
         font-weight: 700;
         margin-bottom: 1.250rem;
     }
-    h3{
+
+    h3 {
         font-size: 1rem;
         font-weight: 700;
         margin-top: 1rem;
         margin-bottom: .5rem;
     }
-    footer{
+
+    footer {
         margin-top: 2rem;
-        .meta{
+
+        .meta {
             margin-top: 1rem;
             text-align: end;
         }
     }
-    a{
+
+    a {
         text-decoration: underline;
     }
-    img{
-        mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0))
+
+    img {
+        mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0))
     }
-    iframe{
+
+    iframe {
         width: 60%;
         height: 500px;
         margin: auto;

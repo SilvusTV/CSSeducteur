@@ -4,6 +4,7 @@ import Blogs from "./Page/Blogs.tsx";
 import Blog from "./Page/Blog.tsx";
 import About from "./Page/About.tsx";
 import Contact from "./Page/Contact.tsx";
+import QuizzLanding from "./Page/QuizzLanding.tsx";
 
 export default function App() {
 
@@ -28,6 +29,10 @@ export default function App() {
       <Route
         path={"/contact"}
         element={<Contact/>}
+      />
+      <Route
+        path={"/quizz"}
+        element={<QuizzLanding/>}
       />
     </Routes>
   )

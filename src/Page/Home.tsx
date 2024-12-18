@@ -1,85 +1,113 @@
 import Navbar from "../Components/Navbar.tsx";
 import MetaHead from "../Components/MetaHead.tsx";
 import Footer from "../Components/Footer.tsx";
-import {get3ActiveBlogs} from "../Tools/Interaction.ts";
+import { get3ActiveBlogs } from "../Tools/Interaction.ts";
 
 export default function Home() {
   const blogs = get3ActiveBlogs();
   return (
-    <div className={"flex flex-col items-center h-screen"}>
+    <div className={"flex h-screen flex-col items-center"}>
       <MetaHead
         title={"CSSéducteur : trouvez le framework CSS fait pour vous"}
         url={"https://csseducteur.love"}
-        metaDescription={"Laissez CSSéducteur vous charmer : trouvez le framework CSS fait pour vous, celui qui saura sublimer vos projets et vous garder à la pointe des tendances envoûtantes du développement web."}
-        metaKeywords={"CSS, framework CSS, CSSéducteur, choisir framework CSS, développement web, design responsive, tendances CSS, séduction web, projets web élégants, veille technologique CSS, outils front-end, sublimer projets web, charme du développement"}
+        metaDescription={
+          "Laissez CSSéducteur vous charmer : trouvez le framework CSS fait pour vous, celui qui saura sublimer vos projets et vous garder à la pointe des tendances envoûtantes du développement web."
+        }
+        metaKeywords={
+          "CSS, framework CSS, CSSéducteur, choisir framework CSS, développement web, design responsive, tendances CSS, séduction web, projets web élégants, veille technologique CSS, outils front-end, sublimer projets web, charme du développement"
+        }
         metaImage={"og-home.webp"}
       />
-      <Navbar type={"blank"}/>
-      <section className="bg-white rounded-3xl w-9/12 self-center m-auto mt-10 mb-10 flex flex-col items-center text-center shadow-xl relative">
-        <h1 className="text-4xl font-extrabold text-gray-800 leading-snug mb-4 mt-8 mx-8">
+      <Navbar type={"blank"} />
+      <section className="relative m-auto mb-10 mt-10 flex w-9/12 flex-col items-center self-center rounded-3xl bg-white text-center shadow-xl">
+        <h1 className="mx-8 mb-4 mt-8 text-4xl font-extrabold leading-snug text-gray-800">
           Trouvez votre framework CSS idéal <br />
           <span className="text-pink-500">avec CSSéducteur</span>
         </h1>
-        <p className="text-gray-600 text-lg mb-6 mx-8">
-          Vous êtes développeur et vous cherchez un framework CSS qui combine puissance, élégance, et simplicité ?
-          Bienvenue sur CSSéducteur, la plateforme incontournable pour découvrir et choisir le style qui sublimera vos projets web.
+        <p className="mx-8 mb-6 text-lg text-gray-600">
+          Vous êtes développeur et vous cherchez un framework CSS qui combine
+          puissance, élégance, et simplicité ? Bienvenue sur CSSéducteur, la
+          plateforme incontournable pour découvrir et choisir le style qui
+          sublimera vos projets web.
         </p>
-        <p className="text-gray-600 text-lg mb-6 mx-8">
-          Avec plus de <span className="font-bold text-purple-700">50 frameworks CSS</span> répertoriés et analysés,
-          notre site est conçu pour répondre aux besoins des développeurs, qu’ils soient débutants ou experts.
+        <p className="mx-8 mb-6 text-lg text-gray-600">
+          Avec plus de{" "}
+          <span className="font-bold text-purple-700">50 frameworks CSS</span>{" "}
+          répertoriés et analysés, notre site est conçu pour répondre aux
+          besoins des développeurs, qu’ils soient débutants ou experts.
         </p>
-        <button className="bg-gradient-to-r from-purple-700 to-pink-600 text-white font-bold py-3 px-6 rounded-full hover:shadow-lg hover:scale-105 transition-transform mx-8">
+        <a
+          href={"/quizz"}
+          className="mx-8 rounded-full bg-gradient-to-r from-purple-700 to-pink-600 px-6 py-3 font-bold text-white transition-transform hover:scale-105 hover:shadow-lg"
+        >
           Faites le test maintenant
-        </button>
+        </a>
         <img
           src="/pictures/hero-image.webp"
           alt="Illustration CSSéductrice"
-          className="w-full mt-6 rounded-b-3xl"
+          className="mt-6 w-full rounded-b-3xl"
         />
       </section>
 
       {/* Section : Les avantages CSSéducteur */}
-      <section className="bg-white rounded-3xl w-9/12 self-center m-auto mt-5 mb-10 flex flex-col p-6 shadow-lg">
-        <h2 className="text-3xl font-bold text-gray-800 mb-6">Pourquoi choisir CSSéducteur ?</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <section className="m-auto mb-10 mt-5 flex w-9/12 flex-col self-center rounded-3xl bg-white p-6 shadow-lg">
+        <h2 className="mb-6 text-3xl font-bold text-gray-800">
+          Pourquoi choisir CSSéducteur ?
+        </h2>
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
           <div>
-            <h3 className="text-xl font-bold text-gray-800">Un outil conçu pour les développeurs</h3>
-            <p className="text-gray-600 mt-2">
-              Nous savons que chaque projet est unique. C’est pourquoi CSSéducteur vous aide à découvrir le
-              framework CSS qui s’adapte parfaitement à vos besoins techniques et esthétiques. Avec notre test,
-              nous avons aidé déjà plus de <span className="font-bold">10 000 développeurs</span> à choisir leur style.
+            <h3 className="text-xl font-bold text-gray-800">
+              Un outil conçu pour les développeurs
+            </h3>
+            <p className="mt-2 text-gray-600">
+              Nous savons que chaque projet est unique. C’est pourquoi
+              CSSéducteur vous aide à découvrir le framework CSS qui s’adapte
+              parfaitement à vos besoins techniques et esthétiques. Avec notre
+              test, nous avons aidé déjà plus de{" "}
+              <span className="font-bold">10 000 développeurs</span> à choisir
+              leur style.
             </p>
           </div>
           <div>
-            <h3 className="text-xl font-bold text-gray-800">Gagnez du temps et de l’efficacité</h3>
-            <p className="text-gray-600 mt-2">
-              Trouver le bon framework peut être chronophage. CSSéducteur vous simplifie la tâche grâce à une
-              analyse précise et des recommandations personnalisées. En moins de <span className="font-bold">5 minutes</span>,
-              découvrez la solution idéale pour vos projets.
+            <h3 className="text-xl font-bold text-gray-800">
+              Gagnez du temps et de l’efficacité
+            </h3>
+            <p className="mt-2 text-gray-600">
+              Trouver le bon framework peut être chronophage. CSSéducteur vous
+              simplifie la tâche grâce à une analyse précise et des
+              recommandations personnalisées. En moins de{" "}
+              <span className="font-bold">5 minutes</span>, découvrez la
+              solution idéale pour vos projets.
             </p>
           </div>
         </div>
       </section>
 
       {/* Section : Les derniers articles */}
-      <section className="bg-white rounded-3xl w-9/12 self-center m-auto mt-5 mb-10 flex flex-col p-6 shadow-lg">
-        <h2 className="text-3xl font-bold text-gray-800 mb-6">Derniers articles de blog</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <section className="m-auto mb-10 mt-5 flex w-9/12 flex-col self-center rounded-3xl bg-white p-6 shadow-lg">
+        <h2 className="mb-6 text-3xl font-bold text-gray-800">
+          Derniers articles de blog
+        </h2>
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
           {blogs.map((article, index) => (
             <div
               key={index}
-              className="bg-gray-100 rounded-lg p-4 hover:shadow-lg transition-shadow"
+              className="rounded-lg bg-gray-100 p-4 transition-shadow hover:shadow-lg"
             >
               <img
-                src={'blog/Pictures/' + article.imageName + '/preview.webp'}
+                src={"blog/Pictures/" + article.imageName + "/preview.webp"}
                 alt={article.title}
-                className="w-full h-48 object-cover rounded-t-lg"
+                className="h-48 w-full rounded-t-lg object-cover"
               />
-              <h3 className="text-xl font-bold text-gray-800 mt-4">{article.title}</h3>
-              <p className="text-gray-600 text-sm mt-2">{article.metaDescription}</p>
+              <h3 className="mt-4 text-xl font-bold text-gray-800">
+                {article.title}
+              </h3>
+              <p className="mt-2 text-sm text-gray-600">
+                {article.metaDescription}
+              </p>
               <a
-                href={'/blog/' + article.slug}
-                className="text-pink-600 font-semibold mt-4 inline-block hover:underline"
+                href={"/blog/" + article.slug}
+                className="mt-4 inline-block font-semibold text-pink-600 hover:underline"
               >
                 Lire l'article →
               </a>
@@ -89,16 +117,20 @@ export default function Home() {
       </section>
 
       {/* Section : Communauté */}
-      <section className="bg-white rounded-3xl w-9/12 self-center m-auto mt-5 mb-10 flex flex-col p-6 shadow-lg">
-        <h2 className="text-3xl font-bold text-gray-800 mb-6">Rejoignez notre communauté</h2>
-        <p className="text-gray-600 text-lg text-center mb-6">
-          Déjà plus de <span className="font-bold text-purple-700">15 000 développeurs</span> passionnés ont rejoint CSSéducteur pour échanger,
-          partager leurs expériences et s'entraider. N'attendez plus !
+      <section className="m-auto mb-10 mt-5 flex w-9/12 flex-col self-center rounded-3xl bg-white p-6 shadow-lg">
+        <h2 className="mb-6 text-3xl font-bold text-gray-800">
+          Rejoignez notre communauté
+        </h2>
+        <p className="mb-6 text-center text-lg text-gray-600">
+          Déjà plus de{" "}
+          <span className="font-bold text-purple-700">15 000 développeurs</span>{" "}
+          passionnés ont rejoint CSSéducteur pour échanger, partager leurs
+          expériences et s'entraider. N'attendez plus !
         </p>
         <div className="flex justify-center gap-4">
           <a
             href="https://x.com/CSSeducteurlove"
-            className="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition"
+            className="rounded-lg bg-blue-500 px-4 py-2 text-white transition hover:bg-blue-600"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -106,7 +138,7 @@ export default function Home() {
           </a>
           <a
             href="https://discordapp.com/users/280049420396003331"
-            className="bg-purple-600 text-white px-4 py-2 rounded-lg hover:bg-purple-700 transition"
+            className="rounded-lg bg-purple-600 px-4 py-2 text-white transition hover:bg-purple-700"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -116,17 +148,22 @@ export default function Home() {
       </section>
 
       {/* Section : Call to Action */}
-      <section className="bg-white rounded-3xl w-9/12 self-center m-auto mt-5 mb-10 flex flex-col items-center text-center p-8 shadow-lg">
-        <h2 className="text-3xl font-bold text-gray-800 mb-4">Prêt à découvrir votre framework parfait ?</h2>
-        <p className="text-gray-600 text-lg mb-6">
-          Ne perdez plus de temps à hésiter. Faites notre test dès maintenant et passez à la vitesse supérieure dans vos projets web !
+      <section className="m-auto mb-10 mt-5 flex w-9/12 flex-col items-center self-center rounded-3xl bg-white p-8 text-center shadow-lg">
+        <h2 className="mb-4 text-3xl font-bold text-gray-800">
+          Prêt à découvrir votre framework parfait ?
+        </h2>
+        <p className="mb-6 text-lg text-gray-600">
+          Ne perdez plus de temps à hésiter. Faites notre test dès maintenant et
+          passez à la vitesse supérieure dans vos projets web !
         </p>
-        <button className="bg-gradient-to-r from-pink-500 to-purple-500 text-white font-bold py-3 px-6 rounded-full hover:shadow-lg hover:scale-105 transition-transform">
+        <a
+          href="/quizz"
+          className="rounded-full bg-gradient-to-r from-pink-500 to-purple-500 px-6 py-3 font-bold text-white transition-transform hover:scale-105 hover:shadow-lg"
+        >
           Je fais le test
-        </button>
+        </a>
       </section>
-      <Footer/>
-
+      <Footer />
     </div>
-  )
+  );
 }

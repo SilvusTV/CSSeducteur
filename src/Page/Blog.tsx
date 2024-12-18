@@ -1,9 +1,9 @@
-import {useLocation, useNavigate} from "react-router-dom";
-import {getBlog} from "../Tools/Interaction.ts";
-import '../blog.css'
+import { useLocation, useNavigate } from "react-router-dom";
+import { getBlog } from "../Tools/Interaction.ts";
+import "../blog.css";
 import IncludeHTML from "../Components/IncludeHTML.tsx";
 import MetaHead from "../Components/MetaHead.tsx";
-import {useEffect, useState} from "react";
+import { useEffect, useState } from "react";
 
 export default function Blog() {
   const location = useLocation();
@@ -13,7 +13,7 @@ export default function Blog() {
   if (blog === undefined) {
     navigate("/blogs");
   }
-  const uploadDate = new Date(blog!.uploadDate + 'T00:00:00Z');
+  const uploadDate = new Date(blog!.uploadDate + "T00:00:00Z");
   const [referrer, setReferrer] = useState<string>("");
 
   useEffect(() => {
@@ -22,8 +22,12 @@ export default function Blog() {
     console.log("Referer : " + referrer);
   }, [referrer]);
   return (
-    <div id={"blog-page"}
-         className={"bg-white rounded-3xl w-9/12 min-h-full self-center m-auto my-5 flex flex-col relative"}>
+    <div
+      id={"blog-page"}
+      className={
+        "relative m-auto my-5 flex min-h-full w-9/12 flex-col self-center rounded-3xl bg-white"
+      }
+    >
       <MetaHead
         title={blog!.title}
         url={blog!.slug}
@@ -34,29 +38,39 @@ export default function Blog() {
       />
       <button
         onClick={() => {
-          if(referrer.includes("/blog")) {
+          if (referrer.includes("/blog")) {
             navigate(-1);
-          }else{
+          } else {
             navigate("/");
           }
         }}
-        className={"absolute z-10 m-8 text-base bg-white rounded-3xl py-2 px-4"}
+        className={"absolute z-10 m-8 rounded-3xl bg-white px-4 py-2 text-base"}
       >
         ← retour
       </button>
       <img
-        className={"w-full h-96 rounded-t-3xl object-cover object-top"}
-        src={'/blog/Pictures/' + blog!.imageName + '/banner.webp'} alt={blog!.title}
+        className={"h-96 w-full rounded-t-3xl object-cover object-top"}
+        src={"/blog/Pictures/" + blog!.imageName + "/banner.webp"}
+        alt={blog!.title}
       />
       <article>
         <header>
-          <p>Publié le <time dateTime={blog!.uploadDate}>{uploadDate.toLocaleString().split(',')[0]}</time> par <a
-            href="/about">CSSéducteur</a></p>
+          <p>
+            Publié le{" "}
+            <time dateTime={blog!.uploadDate}>
+              {uploadDate.toLocaleString().split(",")[0]}
+            </time>{" "}
+            par <a href="/about">CSSéducteur</a>
+          </p>
         </header>
-        <h1 className={"text-2xl font-extrabold text-center -translate-y-12"}>{blog!.title}</h1>
-        <IncludeHTML className={"text-lg p-5"} fileName={blog!.slug}/>
+        <h1 className={"-translate-y-12 text-center text-2xl font-extrabold"}>
+          {blog!.title}
+        </h1>
+        <IncludeHTML className={"p-5 text-lg"} fileName={blog!.slug} />
         <footer>
-          <p className={"w-11/12 mx-auto text-end my-2"}>Article proposer par <a href="/">CSSeducteur</a></p>
+          <p className={"mx-auto my-2 w-11/12 text-end"}>
+            Article proposer par <a href="/">CSSeducteur</a>
+          </p>
         </footer>
       </article>
     </div>

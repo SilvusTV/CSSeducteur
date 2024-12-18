@@ -1,26 +1,53 @@
-export default function Footer() {
+import clsx from "clsx";
+
+type FooterProps = {
+  className?: string;
+};
+export default function Footer(props: FooterProps) {
   return (
-    <footer className={"w-screen h-fit bg-black flex justify-center text-center"}>
-      <div className={"w-9/12 text-white self-center"}>
+    <footer
+      className={clsx(
+        "flex h-fit w-screen justify-center bg-black text-center",
+        props.className,
+      )}
+    >
+      <div className={"w-9/12 self-center text-white"}>
         <div className={"flex justify-between py-2"}>
           <div className={"flex flex-col"}>
             <h3 className={"text-2xl font-bold"}>CSSéducteur</h3>
-            <p className={"text-sm mt-2"}>Les Mémoires du CSSéducteur</p>
+            <p className={"mt-2 text-sm"}>Les Mémoires du CSSéducteur</p>
           </div>
           <div className={"flex flex-col"}>
             <h3 className={"text-2xl font-bold"}>Liens Utiles</h3>
-            <p className={"text-sm my-2"}><a href="/">Accueil</a></p>
-            <p className={"text-sm my-2"}><a href="/blog">Blog</a></p>
-            <p className={"text-sm my-2"}><a href="/about">À Propos</a></p>
+            <p className={"my-2 text-sm"}>
+              <a href="/">Accueil</a>
+            </p>
+            <p className={"my-2 text-sm"}>
+              <a href="/blog">Blog</a>
+            </p>
+            <p className={"my-2 text-sm"}>
+              <a href="/about">À Propos</a>
+            </p>
           </div>
           <div className={"flex flex-col"}>
             <h3 className={"text-2xl font-bold"}>Contact</h3>
-            <p className={"flex-row flex justify-center gap-5 mt-3"}>
+            <p className={"mt-3 flex flex-row justify-center gap-5"}>
               <a href="https://x.com/CSSeducteurlove" target={"_blank"}>
-                <img className={"w-8 m-auto"} src="/pictures/X_logo.svg" alt="Logo X"/>
+                <img
+                  className={"m-auto w-8"}
+                  src="/pictures/X_logo.svg"
+                  alt="Logo X"
+                />
               </a>
-              <a href="https://discordapp.com/users/280049420396003331" target={"_blank"}>
-                <img className={"w-8 m-auto"} src="/pictures/Discord_logo.svg" alt="Logo Discord"/>
+              <a
+                href="https://discordapp.com/users/280049420396003331"
+                target={"_blank"}
+              >
+                <img
+                  className={"m-auto w-8"}
+                  src="/pictures/Discord_logo.svg"
+                  alt="Logo Discord"
+                />
               </a>
             </p>
           </div>
