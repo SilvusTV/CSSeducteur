@@ -11,7 +11,9 @@ export default function BlogList(props: BlogListProps) {
       {props.blogs.map((blog: BlogType) => {
         return (
           <a
-            className={"flex w-9/12 justify-center"}
+            className={
+              "flex w-9/12 justify-center max-lg:w-10/12 max-md:w-11/12"
+            }
             href={"/blog/" + blog.slug}
           >
             <BlogListItem

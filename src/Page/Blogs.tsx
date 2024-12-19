@@ -21,7 +21,11 @@ export default function Blogs() {
           metaImage={"og-home.webp"}
         />
         <Navbar type={"blank"} />
-        <h1 className={"text-5xl font-bold text-white"}>
+        <h1
+          className={
+            "text-center text-4xl font-bold text-white max-md:my-5 max-md:text-3xl max-sm:text-2xl"
+          }
+        >
           Les Mémoires du CSSéducteur
         </h1>
         <BlogList blogs={blogs} />
