@@ -34,9 +34,12 @@ export default function Footer(props: FooterProps) {
             <p className={"mt-3 flex flex-row justify-center gap-5"}>
               <a href="https://x.com/CSSeducteurlove" target={"_blank"}>
                 <img
+                  width={32}
+                  height={32}
                   className={"m-auto w-8"}
                   src="/pictures/X_logo.svg"
                   alt="Logo X"
+                  loading={"lazy"}
                 />
               </a>
               <a
@@ -44,9 +47,12 @@ export default function Footer(props: FooterProps) {
                 target={"_blank"}
               >
                 <img
+                  width={32}
+                  height={32}
                   className={"m-auto w-8"}
                   src="/pictures/Discord_logo.svg"
                   alt="Logo Discord"
+                  loading={"lazy"}
                 />
               </a>
             </p>

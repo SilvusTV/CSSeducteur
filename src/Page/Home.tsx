@@ -43,6 +43,8 @@ export default function Home() {
           Faites le test maintenant
         </a>
         <img
+          width={1700}
+          height={400}
           src="/pictures/hero-image.webp"
           alt="Illustration CSSéductrice"
           className="mt-6 w-full rounded-b-3xl"
@@ -95,9 +97,12 @@ export default function Home() {
               className="rounded-lg bg-gray-100 p-4 transition-shadow hover:shadow-lg"
             >
               <img
+                width={824}
+                height={384}
                 src={"blog/Pictures/" + article.imageName + "/preview.webp"}
                 alt={article.title}
                 className="h-48 w-full rounded-t-lg object-cover"
+                loading={"lazy"}
               />
               <h3 className="mt-4 text-xl font-bold text-gray-800">
                 {article.title}
@@ -107,7 +112,7 @@ export default function Home() {
               </p>
               <a
                 href={"/blog/" + article.slug}
-                className="mt-4 inline-block font-semibold text-pink-600 hover:underline"
+                className="mt-4 inline-block font-semibold text-pink-700 hover:underline"
               >
                 Lire l'article →
               </a>
@@ -135,6 +140,8 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             Suivez-nous sur X
+            <img width={32} height={32} className={"w-8 m-auto"} src="/pictures/X_logo.svg" alt="Logo X"
+                 loading={"lazy"} />
           </a>
           <a
             href="https://discordapp.com/users/280049420396003331"
@@ -143,6 +150,8 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             Rejoignez-nous sur Discord
+            <img width={32} height={32} className={"w-8 h-auto m-auto"} src="/pictures/Discord_logo.svg"
+                 alt="Logo Discord" loading={"lazy"} />
           </a>
         </div>
       </section>

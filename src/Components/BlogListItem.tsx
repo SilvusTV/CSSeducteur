@@ -10,9 +10,12 @@ export default function BlogListItem(props: BlogListItemProps) {
   return (
     <article className={"flex h-80 w-full rounded-3xl bg-white p-5"}>
       <img
+        width={512}
+        height={512}
         className={"mr-5 aspect-square h-full w-auto rounded-xl object-cover"}
         src={"/blog/Pictures/" + props.imageName + "/preview.webp"}
         alt={props.title}
+        loading={"lazy"}
       />
       <div className={"flex h-full flex-col justify-between"}>
         <div>

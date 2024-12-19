@@ -39,9 +39,12 @@ export default function Contact() {
             }
           >
             <img
+              width={32}
+              height={32}
               className={"m-auto w-8"}
               src="/pictures/X_logo.svg"
               alt="Logo X"
+              loading={"lazy"}
             />
             Nous rejoindre sur X
           </a>
@@ -52,9 +55,12 @@ export default function Contact() {
             }
           >
             <img
+              width={32}
+              height={32}
               className={"m-auto h-auto w-10"}
               src="/pictures/Discord_logo.svg"
               alt="Logo Discord"
+              loading={"lazy"}
             />
             Nous rejoindre sur Discord
           </a>
