@@ -19,7 +19,9 @@ export default function Navbar(props: NavbarProps) {
           src="/pictures/css-blank.svg"
           alt="CSSeducteur logo"
         />
-        <h1 className={"text-4xl font-extrabold text-white"}>CSSeducteur</h1>
+        <h1 className={"text-4xl font-extrabold text-white max-lg:hidden"}>
+          CSSeducteur
+        </h1>
       </a>
       <nav
         className={clsx(
@@ -27,17 +29,27 @@ export default function Navbar(props: NavbarProps) {
           props.className,
         )}
       >
-        <ul className={"flex flex-row gap-3"}>
+        <ul
+          className={
+            "flex flex-row gap-3 max-md:flex-col max-md:gap-0 max-sm:text-base"
+          }
+        >
           <li>
-            <a href={"/contact"}>Un Breakpoint dans votre Journée ?</a>
+            <a href={"/contact"} className={"hover:underline"}>
+              Un Breakpoint dans votre Journée ?
+            </a>
           </li>
-          <li>|</li>
+          <li className={"max-md:hidden"}>|</li>
           <li>
-            <a href={"/about"}>Le Charme Révélé</a>
+            <a href={"/about"} className={"hover:underline"}>
+              Le Charme Révélé
+            </a>
           </li>
-          <li>|</li>
+          <li className={"max-md:hidden"}>|</li>
           <li>
-            <a href={"/blog"}>Les Mémoires du CSSéducteur</a>
+            <a href={"/blog"} className={"hover:underline"}>
+              Les Mémoires du CSSéducteur
+            </a>
           </li>
         </ul>
       </nav>

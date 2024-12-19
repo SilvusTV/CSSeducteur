@@ -4,7 +4,7 @@ import Navbar from "../Components/Navbar";
 import MetaHead from "../Components/MetaHead";
 import Footer from "../Components/Footer";
 import { Framework } from "../Types/QuizzType.ts";
-import { getFramework, getQuestions } from "../Tools/InterationQuizz.tsx";
+import { getFramework, getQuestions } from "../Tools/InterationQuizz.ts";
 
 const questions = getQuestions();
 
