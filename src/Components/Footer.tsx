@@ -12,7 +12,9 @@ export default function Footer(props: FooterProps) {
       )}
     >
       <div className={"w-9/12 self-center text-white"}>
-        <div className={"flex justify-between py-2"}>
+        <div
+          className={"flex justify-between py-2 max-md:flex-col max-md:gap-10"}
+        >
           <div className={"flex flex-col"}>
             <h3 className={"text-2xl font-bold"}>CSSéducteur</h3>
             <p className={"mt-2 text-sm"}>Les Mémoires du CSSéducteur</p>
@@ -29,7 +31,7 @@ export default function Footer(props: FooterProps) {
               <a href="/about">À Propos</a>
             </p>
           </div>
-          <div className={"flex flex-col"}>
+          <div className={"flex flex-col max-md:mb-5"}>
             <h3 className={"text-2xl font-bold"}>Contact</h3>
             <p className={"mt-3 flex flex-row justify-center gap-5"}>
               <a href="https://x.com/CSSeducteurlove" target={"_blank"}>
