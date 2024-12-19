@@ -19,8 +19,8 @@ export default function Home() {
         metaImage={"og-home.webp"}
       />
       <Navbar type={"blank"} />
-      <section className="relative m-auto mb-10 mt-10 flex w-9/12 flex-col items-center self-center rounded-3xl bg-white text-center shadow-xl">
-        <h1 className="mx-8 mb-4 mt-8 text-4xl font-extrabold leading-snug text-gray-800">
+      <section className="max-smmt-5 relative m-auto mb-10 mt-10 flex w-9/12 flex-col items-center self-center rounded-3xl bg-white text-center shadow-xl max-md:mb-5 max-md:w-10/12 max-sm:mb-2.5 max-sm:w-11/12">
+        <h1 className="mx-8 mb-4 mt-8 text-4xl font-extrabold leading-snug text-gray-800 max-md:text-3xl max-sm:text-2xl">
           Trouvez votre framework CSS idéal <br />
           <span className="text-pink-500">avec CSSéducteur</span>
         </h1>
@@ -52,8 +52,8 @@ export default function Home() {
       </section>
 
       {/* Section : Les avantages CSSéducteur */}
-      <section className="m-auto mb-10 mt-5 flex w-9/12 flex-col self-center rounded-3xl bg-white p-6 shadow-lg">
-        <h2 className="mb-6 text-3xl font-bold text-gray-800">
+      <section className="m-auto mb-10 mt-5 flex w-9/12 flex-col self-center rounded-3xl bg-white p-6 shadow-lg max-md:mb-5 max-md:w-10/12 max-sm:my-2.5 max-sm:w-11/12">
+        <h2 className="mb-6 text-3xl font-bold text-gray-800 max-sm:text-2xl">
           Pourquoi choisir CSSéducteur ?
         </h2>
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
@@ -86,8 +86,8 @@ export default function Home() {
       </section>
 
       {/* Section : Les derniers articles */}
-      <section className="m-auto mb-10 mt-5 flex w-9/12 flex-col self-center rounded-3xl bg-white p-6 shadow-lg">
-        <h2 className="mb-6 text-3xl font-bold text-gray-800">
+      <section className="m-auto mb-10 mt-5 flex w-9/12 flex-col self-center rounded-3xl bg-white p-6 shadow-lg max-md:mb-5 max-md:w-10/12 max-sm:my-2.5 max-sm:w-11/12">
+        <h2 className="mb-6 text-3xl font-bold text-gray-800 max-sm:text-2xl">
           Derniers articles de blog
         </h2>
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
@@ -122,8 +122,8 @@ export default function Home() {
       </section>
 
       {/* Section : Communauté */}
-      <section className="m-auto mb-10 mt-5 flex w-9/12 flex-col self-center rounded-3xl bg-white p-6 shadow-lg">
-        <h2 className="mb-6 text-3xl font-bold text-gray-800">
+      <section className="m-auto mb-10 mt-5 flex w-9/12 flex-col self-center rounded-3xl bg-white p-6 shadow-lg max-md:mb-5 max-md:w-10/12 max-sm:my-2.5 max-sm:w-11/12">
+        <h2 className="mb-6 text-3xl font-bold text-gray-800 max-sm:text-2xl">
           Rejoignez notre communauté
         </h2>
         <p className="mb-6 text-center text-lg text-gray-600">
@@ -135,7 +135,7 @@ export default function Home() {
         <div className="flex justify-center gap-4">
           <a
             href="https://x.com/CSSeducteurlove"
-            className="rounded-lg bg-black px-4 py-2 text-lg text-white transition hover:bg-[#333]"
+            className="w-1/2 rounded-lg bg-black px-4 py-2 text-center text-lg text-white transition hover:bg-[#333]"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -151,7 +151,7 @@ export default function Home() {
           </a>
           <a
             href="https://discordapp.com/users/280049420396003331"
-            className="rounded-lg bg-[#5865F2] px-4 py-2 text-lg text-white transition hover:bg-[#8891f2]"
+            className="w-1/2 rounded-lg bg-[#5865F2] px-4 py-2 text-center text-lg text-white transition hover:bg-[#8891f2]"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -169,8 +169,8 @@ export default function Home() {
       </section>
 
       {/* Section : Call to Action */}
-      <section className="m-auto mb-10 mt-5 flex w-9/12 flex-col items-center self-center rounded-3xl bg-white p-8 text-center shadow-lg">
-        <h2 className="mb-4 text-3xl font-bold text-gray-800">
+      <section className="m-auto mb-10 mt-5 flex w-9/12 flex-col items-center self-center rounded-3xl bg-white p-8 text-center shadow-lg max-md:mb-5 max-md:w-10/12 max-sm:my-2.5 max-sm:w-11/12">
+        <h2 className="mb-4 text-3xl font-bold text-gray-800 max-sm:text-2xl">
           Prêt à découvrir votre framework parfait ?
         </h2>
         <p className="mb-6 text-lg text-gray-600">
