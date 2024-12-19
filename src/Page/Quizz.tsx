@@ -56,7 +56,7 @@ const QuizPage = () => {
       />
       <Navbar type="blank" />
 
-      <div className="flex flex-grow flex-col items-center bg-gradient-to-b from-blue-50 to-pink-50 p-6">
+      <div className="flex flex-grow flex-col items-center bg-gradient-to-b from-blue-50 to-pink-50 p-6 max-md:pb-24 max-md:pt-12">
         {isCompleted ? (
           <div className="text-center">
             <h1 className="mb-4 text-3xl font-extrabold text-gray-800">
@@ -120,7 +120,6 @@ const QuizPage = () => {
           &larr; Retour
         </button>
       </div>
-
       <Footer />
     </div>
   );

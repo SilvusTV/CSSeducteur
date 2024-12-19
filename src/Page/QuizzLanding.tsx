@@ -19,7 +19,7 @@ export default function QuizzLanding() {
       <Navbar type={"blank"} />
       <section className="m-auto mb-10 mt-5 flex w-9/12 flex-col self-center rounded-3xl bg-white shadow-lg">
         <header className="m-6 mb-10">
-          <h1 className="mb-4 text-4xl font-extrabold text-gray-800">
+          <h1 className="mb-4 text-center text-4xl font-extrabold text-gray-800 max-md:text-3xl max-sm:text-2xl">
             Découvrez votre âme sœur CSS
           </h1>
           <p className="text-lg text-gray-600">
