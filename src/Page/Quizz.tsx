@@ -5,6 +5,7 @@ import MetaHead from "../Components/MetaHead";
 import Footer from "../Components/Footer";
 import { Framework } from "../Types/QuizzType.ts";
 import { getFramework, getQuestions } from "../Tools/InterationQuizz.ts";
+import clsx from "clsx";
 
 const questions = getQuestions();
 
@@ -80,8 +81,14 @@ const QuizPage = () => {
             </button>
           </div>
         ) : (
-          <div className="w-full max-w-2xl">
-            <div className="mb-4">
+          <div className="flex w-full max-w-2xl flex-col items-start">
+            <button
+              className="mb-8 text-sm text-gray-500 hover:text-gray-800"
+              onClick={() => window.history.back()}
+            >
+              &larr; Retour
+            </button>
+            <div className="mb-4 w-full">
               <p className="text-sm text-gray-500">
                 Question {currentQuestion + 1} sur {questions.length}
               </p>
@@ -110,15 +117,17 @@ const QuizPage = () => {
                 </button>
               ))}
             </div>
+            <button
+              className={clsx(
+                "mx-auto mt-12 transform rounded-lg border border-gray-300 bg-white px-6 py-3 font-medium text-gray-700 shadow-md transition-transform hover:scale-105 hover:border-blue-500 hover:bg-blue-50",
+                currentQuestion === 0 && "hidden",
+              )}
+              onClick={() => setCurrentQuestion(currentQuestion - 1)}
+            >
+              &larr; question précédente
+            </button>
           </div>
         )}
-
-        <button
-          className="mt-8 text-sm text-gray-500 hover:text-gray-800"
-          onClick={() => window.history.back()}
-        >
-          &larr; Retour
-        </button>
       </div>
       <Footer />
     </div>

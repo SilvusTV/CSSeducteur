@@ -17,15 +17,13 @@ export default function Blog() {
   const [referrer, setReferrer] = useState<string>("");
 
   useEffect(() => {
-    // Récupère le referer depuis document.referrer
     setReferrer(document.referrer);
-    console.log("Referer : " + referrer);
   }, [referrer]);
   return (
     <div
       id={"blog-page"}
       className={
-        "relative m-auto my-5 flex min-h-full w-9/12 flex-col self-center rounded-3xl bg-white"
+        "relative m-auto my-5 flex min-h-full w-9/12 flex-col self-center rounded-3xl bg-white max-md:w-10/12 max-sm:w-11/12"
       }
     >
       <MetaHead
@@ -55,6 +53,9 @@ export default function Blog() {
       />
       <article>
         <header>
+          <h1 className={"-translate-y-12 text-center text-2xl font-extrabold"}>
+            {blog!.title}
+          </h1>
           <p>
             Publié le{" "}
             <time dateTime={blog!.uploadDate}>
@@ -63,9 +64,6 @@ export default function Blog() {
             par <a href="/about">CSSéducteur</a>
           </p>
         </header>
-        <h1 className={"-translate-y-12 text-center text-2xl font-extrabold"}>
-          {blog!.title}
-        </h1>
         <IncludeHTML className={"p-5 text-lg"} fileName={blog!.slug} />
         <footer>
           <p className={"mx-auto my-2 w-11/12 text-end"}>
