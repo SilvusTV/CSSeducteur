@@ -1,9 +1,9 @@
-import {useLocation, useNavigate} from "react-router-dom";
-import {getBlog} from "../Tools/Interaction.ts";
-import '../blog.css'
+import { useLocation, useNavigate } from "react-router-dom";
+import { getBlog } from "../Tools/Interaction.ts";
+import "../blog.css";
 import IncludeHTML from "../Components/IncludeHTML.tsx";
 import MetaHead from "../Components/MetaHead.tsx";
-import {useEffect, useState} from "react";
+import { useEffect, useState } from "react";
 
 export default function Blog() {
   const location = useLocation();
@@ -13,7 +13,7 @@ export default function Blog() {
   if (blog === undefined) {
     navigate("/blogs");
   }
-  const uploadDate = new Date(blog!.uploadDate + 'T00:00:00Z');
+  const uploadDate = new Date(blog!.uploadDate + "T00:00:00Z");
   const [referrer, setReferrer] = useState<string>("");
 
   useEffect(() => {
@@ -34,9 +34,9 @@ export default function Blog() {
       />
       <button
         onClick={() => {
-          if(referrer.includes("/blog")) {
+          if (referrer.includes("/blog")) {
             navigate(-1);
-          }else{
+          } else {
             navigate("/");
           }
         }}
@@ -46,15 +46,16 @@ export default function Blog() {
       </button>
       <img
         className={"w-full h-96 rounded-t-3xl object-cover object-top"}
-        src={'/blog/Pictures/' + blog!.imageName + '/banner.webp'} alt={blog!.title}
+        src={"/blog/Pictures/" + blog!.imageName + "/banner.webp"} alt={blog!.title}
+        loading={"lazy"}
       />
       <article>
         <header>
-          <p>Publié le <time dateTime={blog!.uploadDate}>{uploadDate.toLocaleString().split(',')[0]}</time> par <a
+          <p>Publié le <time dateTime={blog!.uploadDate}>{uploadDate.toLocaleString().split(",")[0]}</time> par <a
             href="/about">CSSéducteur</a></p>
         </header>
         <h1 className={"text-2xl font-extrabold text-center -translate-y-12"}>{blog!.title}</h1>
-        <IncludeHTML className={"text-lg p-5"} fileName={blog!.slug}/>
+        <IncludeHTML className={"text-lg p-5"} fileName={blog!.slug} />
         <footer>
           <p className={"w-11/12 mx-auto text-end my-2"}>Article proposer par <a href="/">CSSeducteur</a></p>
         </footer>

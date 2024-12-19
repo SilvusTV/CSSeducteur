@@ -12,7 +12,7 @@ export default function Contact() {
         metaKeywords={"CSSéducteur contact, Breakpoint, rejoindre CSSéducteur, X CSSéducteur, Discord CSSéducteur, communauté CSS, développement web, réseaux sociaux CSS"}
         metaImage={"og-contact.webp"}
       />
-      <Navbar type={"blank"}/>
+      <Navbar type={"blank"} />
       <section className={"bg-white rounded-3xl w-9/12 self-center m-auto mt-5 mb-10 flex flex-col relative p-3"}>
         <header>
           <h1 className={"text-5xl mb-3 font-extrabold text-center"}>Un Breakpoint dans votre Journée ?</h1>
@@ -23,17 +23,20 @@ export default function Contact() {
         <div className={"flex flex-col gap-5 items-center text-center my-8"}>
           <a href={"https://x.com/CSSeducteurlove"}
              className={" w-3/12 text-2xl font-bold p-5 bg-black text-white hover:bg-[#333] transition rounded-2xl flex flex-row items-center justify-between"}>
-            <img className={"w-8 m-auto"} src="/pictures/X_logo.svg" alt="Logo X"/>
+            <img width={32} height={32} className={"w-8 m-auto"} src="/pictures/X_logo.svg" alt="Logo X"
+                 loading={"lazy"} />
             Nous rejoindre sur X
           </a>
           <a href={"https://discordapp.com/users/280049420396003331"}
              className={"w-3/12 text-2xl font-bold p-5 text-white bg-[#5865F2] hover:bg-[#8891f2] transition rounded-2xl flex flex-row items-center"}>
-            <img className={"w-10 h-auto m-auto"} src="/pictures/Discord_logo.svg" alt="Logo Discord"/>
+            <img width={32} height={32} className={"w-10 h-auto m-auto"} src="/pictures/Discord_logo.svg"
+                 alt="Logo Discord"
+                 loading={"lazy"} />
             Nous rejoindre sur Discord
           </a>
         </div>
       </section>
-      <Footer/>
+      <Footer />
     </div>
-  )
+  );
 }
