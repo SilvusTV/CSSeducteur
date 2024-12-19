@@ -17,7 +17,9 @@ export default function Footer(props: FooterProps) {
         >
           <div className={"flex flex-col"}>
             <h3 className={"text-2xl font-bold"}>CSSéducteur</h3>
-            <p className={"mt-2 text-sm"}>Les Mémoires du CSSéducteur</p>
+            <p className={"mt-2 text-sm"}>
+              Créez, innovez, séduisez avec CSSéducteur.
+            </p>
           </div>
           <div className={"flex flex-col"}>
             <h3 className={"text-2xl font-bold"}>Liens Utiles</h3>
