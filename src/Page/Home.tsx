@@ -1,7 +1,7 @@
 import Navbar from "../Components/Navbar.tsx";
 import MetaHead from "../Components/MetaHead.tsx";
 import Footer from "../Components/Footer.tsx";
-import { get3ActiveBlogs } from "../Tools/Interaction.ts";
+import { get3ActiveBlogs } from "../Tools/InteractionBlog.ts";
 
 export default function Home() {
   const blogs = get3ActiveBlogs();
@@ -135,7 +135,7 @@ export default function Home() {
         <div className="flex justify-center gap-4">
           <a
             href="https://x.com/CSSeducteurlove"
-            className="rounded-lg bg-blue-500 px-4 py-2 text-white transition hover:bg-blue-600"
+            className="rounded-lg bg-black px-4 py-2 text-lg text-white transition hover:bg-[#333]"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -151,7 +151,7 @@ export default function Home() {
           </a>
           <a
             href="https://discordapp.com/users/280049420396003331"
-            className="rounded-lg bg-purple-600 px-4 py-2 text-white transition hover:bg-purple-700"
+            className="rounded-lg bg-[#5865F2] px-4 py-2 text-lg text-white transition hover:bg-[#8891f2]"
             target="_blank"
             rel="noopener noreferrer"
           >

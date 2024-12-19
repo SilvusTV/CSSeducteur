@@ -1,191 +1,562 @@
 [
   {
+    "id": 1,
     "question": "Quel est ton style de développement préféré ?",
     "options": [
       "Rapide et pragmatique",
       "Structuré et organisé",
       "Axé sur l'esthétique et le design",
       "Exploratoire et expérimental"
+    ],
+    "mappings": [
+      [
+        1,
+        19
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        4,
+        16
+      ],
+      [
+        28,
+        25
+      ]
     ]
   },
   {
+    "id": 2,
     "question": "Comment abordes-tu un projet complexe ?",
     "options": [
       "En le découpant en petites tâches",
       "En suivant une méthodologie éprouvée",
       "En recherchant une solution élégante",
       "En testant plusieurs approches"
+    ],
+    "mappings": [
+      [
+        1,
+        15
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        4,
+        14
+      ],
+      [
+        23,
+        25
+      ]
     ]
   },
   {
+    "id": 3,
     "question": "Quel type de design préfères-tu dans une interface utilisateur ?",
     "options": [
       "Minimaliste",
       "Classique",
       "Coloré et créatif",
       "Audacieux et innovant"
+    ],
+    "mappings": [
+      [
+        20,
+        21
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        16
+      ],
+      [
+        28,
+        8
+      ]
     ]
   },
   {
+    "id": 4,
     "question": "Que fais-tu face à un bug ?",
     "options": [
       "Je cherche une solution rapide",
       "Je documente et analyse les causes",
       "Je fais une pause pour réfléchir",
       "Je demande de l'aide à la communauté"
+    ],
+    "mappings": [
+      [
+        1,
+        19
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        5,
+        24
+      ]
     ]
   },
   {
+    "id": 5,
     "question": "Quelle est ton approche pour apprendre une nouvelle technologie ?",
     "options": [
       "Essayer immédiatement avec un petit projet",
       "Lire toute la documentation avant de commencer",
       "Regarder des tutoriels vidéo inspirants",
       "Expérimenter avec des exemples variés"
+    ],
+    "mappings": [
+      [
+        1,
+        19
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        4,
+        16
+      ],
+      [
+        28,
+        10
+      ]
     ]
   },
   {
+    "id": 6,
     "question": "Comment préfères-tu organiser ton code CSS ?",
     "options": [
       "Avec des classes utilitaires comme dans Tailwind",
       "Avec un système basé sur des composants",
       "En suivant un style strict comme BEM",
       "Je préfère improviser selon mes besoins"
+    ],
+    "mappings": [
+      [
+        1,
+        19
+      ],
+      [
+        3,
+        16
+      ],
+      [
+        2,
+        25
+      ],
+      [
+        8,
+        28
+      ]
     ]
   },
   {
+    "id": 7,
     "question": "Quel est ton framework front-end préféré ?",
     "options": [
       "React",
       "Vue.js",
       "Svelte",
       "Je préfère coder en Vanilla JS"
+    ],
+    "mappings": [
+      [
+        12,
+        13
+      ],
+      [
+        16,
+        17
+      ],
+      [
+        8,
+        4
+      ],
+      [
+        15,
+        14
+      ]
     ]
   },
   {
+    "id": 8,
     "question": "Quel type de typographie préfères-tu pour tes projets ?",
     "options": [
       "Sans-serif moderne",
       "Classique et élégant",
       "Manuscrite ou fantaisiste",
       "Originale et audacieuse"
+    ],
+    "mappings": [
+      [
+        1,
+        20
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        4,
+        16
+      ],
+      [
+        28,
+        10
+      ]
     ]
   },
   {
+    "id": 9,
     "question": "Comment choisis-tu une palette de couleurs pour un projet ?",
     "options": [
       "Je prends une palette minimaliste",
       "Je me base sur des couleurs sûres et classiques",
       "Je m'inspire des tendances actuelles",
       "Je choisis des couleurs inattendues"
+    ],
+    "mappings": [
+      [
+        1,
+        20
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        16
+      ],
+      [
+        28,
+        8
+      ]
     ]
   },
   {
+    "id": 10,
     "question": "Quel est ton environnement de travail idéal ?",
     "options": [
       "Calme et silencieux",
       "Structuré avec des réunions régulières",
       "Créatif avec une certaine liberté",
       "Collaboratif et plein d'énergie"
+    ],
+    "mappings": [
+      [
+        8,
+        1
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        4,
+        16
+      ],
+      [
+        28,
+        25
+      ]
     ]
   },
   {
+    "id": 11,
     "question": "Quel genre d'application préfères-tu développer ?",
     "options": [
       "Des sites vitrines rapides et efficaces",
       "Des dashboards complexes",
       "Des interfaces utilisateur élégantes",
       "Des expériences interactives uniques"
+    ],
+    "mappings": [
+      [
+        1,
+        20
+      ],
+      [
+        2,
+        18
+      ],
+      [
+        4,
+        16
+      ],
+      [
+        28,
+        14
+      ]
     ]
   },
   {
+    "id": 12,
     "question": "Quel est ton rôle idéal dans une équipe de développement ?",
     "options": [
       "Leader qui guide les décisions techniques",
       "Exécutant qui suit les consignes",
       "Designer ou intégrateur",
       "Innovateur qui propose des idées"
+    ],
+    "mappings": [
+      [
+        1,
+        2
+      ],
+      [
+        5,
+        16
+      ],
+      [
+        4,
+        13
+      ],
+      [
+        28,
+        25
+      ]
     ]
   },
   {
+    "id": 13,
     "question": "Comment gères-tu le stress dans un projet ?",
     "options": [
       "Je priorise et avance étape par étape",
       "Je m'organise avec des outils",
       "Je prends du recul et réfléchis",
       "Je fais appel à mon équipe pour m'aider"
+    ],
+    "mappings": [
+      [
+        1,
+        19
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        4,
+        10
+      ],
+      [
+        28,
+        25
+      ]
     ]
   },
   {
+    "id": 14,
     "question": "Quel est ton rapport à la documentation ?",
     "options": [
       "Je lis tout minutieusement",
       "Je consulte au besoin",
       "Je préfère apprendre en faisant",
       "Je cherche des exemples concrets"
+    ],
+    "mappings": [
+      [
+        2,
+        5
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        1,
+        19
+      ],
+      [
+        8,
+        28
+      ]
     ]
   },
   {
+    "id": 15,
     "question": "Quel type de framework CSS utilises-tu le plus ?",
     "options": [
       "Utilitaire comme Tailwind CSS",
       "Complet comme Bootstrap",
       "Léger comme Bulma",
       "Je préfère écrire mon propre CSS"
+    ],
+    "mappings": [
+      [
+        1,
+        19
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        16
+      ],
+      [
+        8,
+        28
+      ]
     ]
   },
   {
+    "id": 16,
     "question": "Comment choisis-tu une librairie CSS pour un projet ?",
     "options": [
       "En fonction de la rapidité de mise en place",
       "Selon sa documentation et sa communauté",
       "Si elle permet des designs originaux",
       "Si elle est légère et performante"
+    ],
+    "mappings": [
+      [
+        1,
+        19
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        4,
+        16
+      ],
+      [
+        28,
+        8
+      ]
     ]
   },
   {
+    "id": 17,
     "question": "Quel type de mise en page préfères-tu utiliser ?",
     "options": [
       "Flexbox",
       "Grid",
       "Une combinaison des deux",
       "Tableaux, pourquoi pas ?"
+    ],
+    "mappings": [
+      [
+        15,
+        8
+      ],
+      [
+        14,
+        5
+      ],
+      [
+        28,
+        25
+      ],
+      [
+        2,
+        3
+      ]
     ]
   },
   {
+    "id": 18,
     "question": "Quelle est ton opinion sur les animations CSS ?",
     "options": [
       "Essentielles pour améliorer l'expérience utilisateur",
       "Utile avec parcimonie",
       "Une belle opportunité pour être créatif",
       "Superflues et inutiles"
+    ],
+    "mappings": [
+      [
+        28,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        21,
+        20
+      ]
     ]
   },
   {
+    "id": 19,
     "question": "Comment préfères-tu gérer les responsive designs ?",
     "options": [
       "Avec des classes utilitaires",
       "Avec des media queries spécifiques",
       "Avec des breakpoints automatiques",
       "Avec des techniques innovantes"
+    ],
+    "mappings": [
+      [
+        1,
+        19
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        4,
+        16
+      ],
+      [
+        28,
+        25
+      ]
     ]
   },
   {
+    "id": 20,
     "question": "Que penses-tu des préprocesseurs CSS comme Sass ?",
     "options": [
       "Indispensables",
       "Utile pour des projets complexes",
       "Parfois trop lourds",
       "Je préfère rester avec du CSS pur"
-    ]
-  },
-  {
-    "question": "Comment préfères-tu tester tes designs ?",
-    "options": [
-      "Sur plusieurs appareils",
-      "Avec des outils automatisés",
-      "En demandant des retours d'utilisateurs",
-      "En testant manuellement chaque cas"
+    ],
+    "mappings": [
+      [
+        9,
+        11
+      ],
+      [
+        10,
+        5
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        28,
+        25
+      ]
     ]
   }
 ]

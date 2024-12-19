@@ -1,6 +1,6 @@
 import Navbar from "../Components/Navbar.tsx";
 import BlogList from "../Components/BlogList.tsx";
-import { getActiveBlogs } from "../Tools/Interaction.ts";
+import { getActiveBlogs } from "../Tools/InteractionBlog.ts";
 import MetaHead from "../Components/MetaHead.tsx";
 import Footer from "../Components/Footer.tsx";
 

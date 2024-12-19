@@ -10,6 +10,7 @@ export default function Navbar(props: NavbarProps) {
       className={clsx(
         "flex w-screen justify-between",
         props.type === "blank" ? "bg-transparent" : "default_gradiant",
+        props.type === "blank" && "items-center",
       )}
     >
       <a href="/" className={"inline-flex items-center"}>

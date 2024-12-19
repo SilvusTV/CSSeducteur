@@ -1,117 +1,146 @@
 [
   {
+    "id": 1,
     "name": "Tailwind CSS",
     "description": "Un framework utilitaire qui prône une approche minimaliste et rapide. Idéal pour ceux qui veulent un contrôle granulaire sur leur design sans écrire de CSS complexe."
   },
   {
+    "id": 2,
     "name": "Bootstrap",
     "description": "Le framework CSS classique et fiable. Parfait pour des projets nécessitant une structure solide et des composants prêts à l'emploi, avec une touche de standardisation."
   },
   {
+    "id": 3,
     "name": "Bulma",
     "description": "Un framework CSS léger et élégant, orienté vers la flexibilité et la facilité d'utilisation, avec des styles modernes et épurés."
   },
   {
+    "id": 4,
     "name": "Materialize",
     "description": "Inspiré de Material Design, ce framework est idéal pour ceux qui aiment les interfaces utilisateur sophistiquées et bien structurées, avec un accent sur l'esthétique."
   },
   {
+    "id": 5,
     "name": "Foundation",
     "description": "Un framework robuste et accessible, conçu pour des designs responsives. Parfait pour les développeurs qui veulent un contrôle avancé sur leur mise en page."
   },
   {
+    "id": 6,
     "name": "PureCSS",
     "description": "Un framework minimaliste et performant, idéal pour les développeurs qui souhaitent une base légère sans superflu."
   },
   {
+    "id": 7,
     "name": "UIkit",
     "description": "Un framework modulaire qui convient parfaitement aux designs modernes, avec un accent sur les animations et les interactions."
   },
   {
+    "id": 8,
     "name": "Vanilla CSS",
     "description": "Un style de développement sans framework, pour les puristes qui aiment écrire leur CSS de A à Z, avec un contrôle total sur leur code."
   },
   {
+    "id": 9,
     "name": "Sass",
     "description": "Un préprocesseur CSS qui simplifie l'écriture de styles complexes. Parfait pour les développeurs qui veulent utiliser des fonctionnalités avancées comme les variables et les mixins."
   },
   {
+    "id": 10,
     "name": "PostCSS",
     "description": "Un outil de transformation CSS moderne, offrant une flexibilité énorme avec des plugins pour optimiser et enrichir le CSS."
   },
   {
+    "id": 11,
     "name": "Less",
     "description": "Un préprocesseur simple et puissant, idéal pour ceux qui veulent étendre les capacités de CSS avec un apprentissage rapide."
   },
   {
+    "id": 12,
     "name": "Styled Components",
     "description": "Une solution CSS-in-JS pour les développeurs React. Parfait pour ceux qui aiment gérer les styles directement dans leurs composants JavaScript."
   },
   {
+    "id": 13,
     "name": "Emotion",
     "description": "Un autre outil CSS-in-JS, performant et flexible, conçu pour les développeurs qui cherchent une gestion de styles dynamique."
   },
   {
+    "id": 14,
     "name": "CSS Grid Layout",
     "description": "Un style de mise en page moderne, idéal pour des designs complexes et responsives avec un contrôle total sur la structure."
   },
   {
+    "id": 15,
     "name": "Flexbox",
     "description": "Une méthode de mise en page simple et efficace, idéale pour les designs alignés et centrés."
   },
   {
+    "id": 16,
     "name": "Chakra UI",
     "description": "Un framework React moderne qui offre des composants stylisés et personnalisables, pour un design cohérent et rapide."
   },
   {
+    "id": 17,
     "name": "Ant Design",
     "description": "Un framework complet pour les développeurs qui cherchent une interface utilisateur professionnelle et bien pensée."
   },
   {
+    "id": 18,
     "name": "Clarity",
     "description": "Un framework orienté vers les applications web avec un design clair et structuré, idéal pour les dashboards."
   },
   {
+    "id": 19,
     "name": "Tachyons",
     "description": "Un framework utilitaire ultra-léger, conçu pour créer des interfaces rapidement sans avoir à écrire beaucoup de CSS."
   },
   {
+    "id": 20,
     "name": "Pico.css",
     "description": "Un framework CSS minimaliste et élégant, parfait pour des projets qui nécessitent des styles par défaut beaux et simples."
   },
   {
+    "id": 21,
     "name": "Skeleton",
     "description": "Un framework CSS très léger, offrant uniquement l'essentiel pour démarrer rapidement un projet."
   },
   {
+    "id": 22,
     "name": "Milligram",
     "description": "Un framework minimaliste avec un accent sur la rapidité de mise en place et la simplicité des styles."
   },
   {
+    "id": 23,
     "name": "Windi CSS",
     "description": "Un framework utilitaire similaire à Tailwind, mais encore plus rapide grâce à son approche générative."
   },
   {
+    "id": 24,
     "name": "Open Props",
     "description": "Un système de design basé sur des variables CSS personnalisées, parfait pour les développeurs qui veulent une flexibilité totale."
   },
   {
+    "id": 25,
     "name": "Atomic CSS",
     "description": "Une méthode de stylisation où chaque classe a une seule responsabilité. Idéal pour des projets hautement modulaires."
   },
   {
+    "id": 26,
     "name": "Bootstrap Icons",
     "description": "Une bibliothèque d'icônes complémentaire pour Bootstrap, parfaite pour enrichir les designs."
   },
   {
+    "id": 27,
     "name": "Zurb Ink",
     "description": "Un framework CSS conçu spécifiquement pour les emails responsives. Idéal pour les développeurs centrés sur les campagnes de mailing."
   },
   {
+    "id": 28,
     "name": "CSS Houdini",
     "description": "Un ensemble d'APIs expérimentales pour étendre les capacités du CSS, idéal pour les développeurs qui aiment repousser les limites."
   },
   {
+    "id": 29,
     "name": "Compass",
     "description": "Un framework basé sur Sass, offrant des mixins puissants pour accélérer le développement CSS."
   }

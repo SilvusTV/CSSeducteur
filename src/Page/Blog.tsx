@@ -1,5 +1,5 @@
 import { useLocation, useNavigate } from "react-router-dom";
-import { getBlog } from "../Tools/Interaction.ts";
+import { getBlog } from "../Tools/InteractionBlog.ts";
 import "../blog.css";
 import IncludeHTML from "../Components/IncludeHTML.tsx";
 import MetaHead from "../Components/MetaHead.tsx";

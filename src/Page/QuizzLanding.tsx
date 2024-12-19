@@ -35,7 +35,10 @@ export default function QuizzLanding() {
             className="mb-8 w-full"
           />
 
-          <a className="cursor mx-8 mb-6 rounded-full bg-gradient-to-r from-purple-700 to-pink-600 px-6 py-3 font-bold text-white transition-transform hover:scale-105 hover:shadow-lg">
+          <a
+            href={"/quizz/personality"}
+            className="cursor mx-8 mb-6 rounded-full bg-gradient-to-r from-purple-700 to-pink-600 px-6 py-3 font-bold text-white transition-transform hover:scale-105 hover:shadow-lg"
+          >
             Commencer le quiz
           </a>
         </main>
