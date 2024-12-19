@@ -140,8 +140,14 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             Suivez-nous sur X
-            <img width={32} height={32} className={"w-8 m-auto"} src="/pictures/X_logo.svg" alt="Logo X"
-                 loading={"lazy"} />
+            <img
+              width={32}
+              height={32}
+              className={"m-auto w-8"}
+              src="/pictures/X_logo.svg"
+              alt="Logo X"
+              loading={"lazy"}
+            />
           </a>
           <a
             href="https://discordapp.com/users/280049420396003331"
@@ -150,8 +156,14 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             Rejoignez-nous sur Discord
-            <img width={32} height={32} className={"w-8 h-auto m-auto"} src="/pictures/Discord_logo.svg"
-                 alt="Logo Discord" loading={"lazy"} />
+            <img
+              width={32}
+              height={32}
+              className={"m-auto h-auto w-8"}
+              src="/pictures/Discord_logo.svg"
+              alt="Logo Discord"
+              loading={"lazy"}
+            />
           </a>
         </div>
       </section>
