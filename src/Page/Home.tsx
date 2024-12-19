@@ -14,7 +14,7 @@ export default function Home() {
           "Laissez CSSéducteur vous charmer : trouvez le framework CSS fait pour vous, celui qui saura sublimer vos projets et vous garder à la pointe des tendances envoûtantes du développement web."
         }
         metaKeywords={
-          "CSS, framework CSS, CSSéducteur, choisir framework CSS, développement web, design responsive, tendances CSS, séduction web, projets web élégants, veille technologique CSS, outils front-end, sublimer projets web, charme du développement"
+          "CSS, framework CSS, CSSéducteur, choisir framework CSS, développement web, design responsive, tendances CSS, séduction web, projets web élégants, veille technologique CSS, outils front-end, sublimer projets web, charme du développement, francais"
         }
         metaImage={"og-home.webp"}
       />

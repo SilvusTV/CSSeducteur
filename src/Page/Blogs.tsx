@@ -16,7 +16,7 @@ export default function Blogs() {
             "Explorez notre blog CSSéducteur : une immersion séduisante dans l'univers des frameworks CSS. Conseils, astuces et comparatifs pour sublimer vos projets web avec style et élégance."
           }
           metaKeywords={
-            "CSS, blog CSS, frameworks CSS, développement web, design responsive, comparatif CSS, astuces CSS, conseils web, sublimer projets web, tendances CSS, outils front-end, veille technologique, CSSéducteur, création web élégante, styles CSS"
+            "CSS, blog CSS, frameworks CSS, développement web, design responsive, comparatif CSS, astuces CSS, conseils web, sublimer projets web, tendances CSS, outils front-end, veille technologique, CSSéducteur, création web élégante, styles CSS, francais"
           }
           metaImage={"og-home.webp"}
         />
