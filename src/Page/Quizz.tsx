@@ -106,7 +106,7 @@ const QuizPage = () => {
               {questions[currentQuestion].question}
             </h2>
 
-            <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
+            <div className="grid w-full grid-cols-1 gap-4 md:grid-cols-2">
               {questions[currentQuestion].options.map((option, index) => (
                 <button
                   key={index}
