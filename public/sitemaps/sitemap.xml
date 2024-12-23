@@ -6,4 +6,7 @@
     <sitemap>
         <loc>https://csseducteur.love/sitemaps/sitemap-blog.xml</loc>
     </sitemap>
+    <sitemap>
+        <loc>https://csseducteur.love/sitemaps/sitemap-quizz.xml</loc>
+    </sitemap>
 </sitemapindex>
