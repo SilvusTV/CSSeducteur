@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
         <loc>https://csseducteur.love/blog/bootstrap-le-seducteur-classique-qui-ne-se-demode-jamais</loc>
         <lastmod>2024-12-11</lastmod>
@@ -9,7 +10,9 @@
         <lastmod>2024-12-12</lastmod>
     </url>
     <url>
-        <loc>https://csseducteur.love/blog/veille-technologique-comment-seduire-les-recruteurs-grace-a-vos-competences-css</loc>
+        <loc>
+            https://csseducteur.love/blog/veille-technologique-comment-seduire-les-recruteurs-grace-a-vos-competences-css
+        </loc>
         <lastmod>2024-12-15</lastmod>
     </url>
     <url>
@@ -23,5 +26,17 @@
     <url>
         <loc>https://csseducteur.love/blog/les-tendances-web-design-lannee-2024-un-recapitulatif</loc>
         <lastmod>2024-12-18</lastmod>
+    </url>
+    <url>
+        <loc>https://csseducteur.love/blog/css-react-meilleures-librairies-design-web-sensationnel</loc>
+        <lastmod>2024-12-19</lastmod>
+    </url>
+    <url>
+        <loc>https://csseducteur.love/blog/animation-css-donnez-vie-pages-soupcon-magie-visuelle</loc>
+        <lastmod>2024-12-20</lastmod>
+    </url>
+    <url>
+        <loc>https://csseducteur.love/blog/postcss-magicien-discret-embellit-feuilles-style</loc>
+        <lastmod>2024-12-21</lastmod>
     </url>
 </urlset>

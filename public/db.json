@@ -1,5 +1,32 @@
 [
   {
+    "id": 9,
+    "title": "PostCSS : le magicien discret qui embellit vos feuilles de style",
+    "slug": "postcss-magicien-discret-embellit-feuilles-style",
+    "imageName": "postcss-magicien-discret-embellit-feuilles-style",
+    "metaDescription": "Découvrez comment PostCSS peut transformer vos feuilles de style grâce à sa flexibilité et ses plugins puissants. Apprenez à l'intégrer dans vos projets et explorez ses avantages et inconvénients.",
+    "metaKeywords": "PostCSS, CSS plugins, Front-end optimization, Autoprefixer, CSSNano, CSS processing, CSS transformations, CSS minification, CSS linting, CSS nesting, CSS variables, CSS custom properties, CSS mixins, CSS functions, CSS imports, CSS modules, CSS in JS, CSS optimization, CSS performance, CSS architecture, CSS frameworks, CSS tools, CSS workflow, CSS build process, CSS post-processing, CSS pre-processing, CSS syntax, CSS extensions, CSS polyfills, CSS compatibility, CSS browser support, CSS vendor prefixes, CSS custom syntax",
+    "uploadDate": "2024-12-21"
+  },
+  {
+    "id": 8,
+    "title": "Animation CSS : donnez vie à vos pages avec un soupçon de magie visuelle",
+    "slug": "animation-css-donnez-vie-pages-soupcon-magie-visuelle",
+    "imageName": "animation-css-donnez-vie-pages-soupcon-magie-visuelle",
+    "metaDescription": "Découvrez comment les animations CSS peuvent transformer vos pages web en expériences interactives captivantes. Apprenez les bases, explorez les exemples pratiques et maximisez les performances de vos projets.",
+    "metaKeywords": "Animation CSS, magie visuelle, transition CSS, keyframes CSS, animation web, performances CSS, UX design, interface interactive, animation hover, animation complexe, Animate.css, GSAP, animation GPU.",
+    "uploadDate": "2024-12-20"
+  },
+  {
+    "id": 7,
+    "title": "Css pour react : les meilleures librairies pour un design web sensationnel",
+    "slug": "css-react-meilleures-librairies-design-web-sensationnel",
+    "imageName": "css-react-meilleures-librairies-design-web-sensationnel",
+    "metaDescription": "Découvrez les meilleures librairies CSS pour React, leurs avantages et inconvénients, et apprenez à les intégrer avec des exemples concrets. Sublimez vos projets React avec un design web sensationnel !",
+    "metaKeywords": "CSS pour React, librairies CSS, Tailwind CSS, Styled-Components, Material-UI, Emotion, frameworks CSS React, développement web, design web React, outils CSS React, styles CSS React, composants React",
+    "uploadDate": "2024-12-19"
+  },
+  {
     "id": 6,
     "title": "Les Tendances Web Design de l'Année 2024 : Un Récapitulatif",
     "slug": "les-tendances-web-design-lannee-2024-un-recapitulatif",
@@ -7,7 +34,6 @@
     "metaDescription": "Découvrez les tendances incontournables du web design en 2024 : courants artistiques, outils innovants comme Tailwind CSS, Figma et Framer, et des exemples pratiques pour moderniser vos projets.",
     "metaKeywords": "web design 2024, tendances web design, Bento design, brutalisme raffiné, conception 3D, Tailwind CSS, Figma, Framer, ChatGPT IA design, outils web design, exemples code web design, innovations design web, CSS moderne, tendances UI UX",
     "uploadDate": "2024-12-18"
-
   },
   {
     "id": 5,
@@ -17,7 +43,6 @@
     "metaDescription": "Découvrez les nouveautés révolutionnaires de Tailwind CSS v4.0 : moteur Oxide ultra-performant, configuration simplifiée, support des fonctionnalités modernes CSS et variantes composables. Optimisez vos projets front-end dès aujourd'hui.",
     "metaKeywords": "Tailwind CSS, Tailwind CSS v4, moteur Oxide, nouveautés Tailwind CSS, performances CSS, configuration CSS, nesting CSS, variantes Tailwind, développement front-end, CSS moderne, @theme Tailwind, requêtes conteneur CSS, cascade native CSS, color-mix CSS, optimisation front-end",
     "uploadDate": "2024-12-17"
-
   },
   {
     "id": 4,
@@ -27,7 +52,6 @@
     "metaDescription": "Découvrez les tendances CSS incontournables de 2024 : container queries, pseudo-classes avancées, optimisations modernes. Restez à jour, maîtrisez les nouveautés et séduisez les recruteurs grâce à vos compétences CSS en alternance !",
     "metaKeywords": "CSS tendances 2024, nouveautés CSS, container queries, pseudo-classes CSS, Flexbox et CSS Grid, optimisation CSS, veille technologique CSS, compétences CSS alternance, séduire recruteurs développement web, CSS performance, frameworks CSS modernes, Tailwind CSS 2024, alternance développement web",
     "uploadDate": "2024-12-16"
-
   },
   {
     "id": 3,
@@ -37,7 +61,6 @@
     "metaDescription": "Découvrez comment séduire les recruteurs grâce à vos compétences CSS et une veille technologique active. Apprenez à optimiser vos chances en alternance avec des outils modernes et des conseils pratiques.",
     "metaKeywords": "CSS, veille technologique, alternance, recruteurs, compétences CSS, séduire recruteurs, développement web, framework CSS, design moderne, alternance développement, outils front-end, tendances CSS, portfolio en ligne, CodePen, GitHub, soft skills, interview alternance",
     "uploadDate": "2024-12-15"
-
   },
   {
     "id": 2,
