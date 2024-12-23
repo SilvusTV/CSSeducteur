@@ -59,6 +59,19 @@ export default function Footer(props: FooterProps) {
                   loading={"lazy"}
                 />
               </a>
+              <a
+                href="https://www.linkedin.com/company/css%C3%A9ducteur/?viewAsMember=true"
+                target={"_blank"}
+              >
+                <img
+                  width={32}
+                  height={32}
+                  className={"m-auto w-8"}
+                  src="/pictures/Linkedin_logo.svg"
+                  alt="Logo LinkedIn"
+                  loading={"lazy"}
+                />
+              </a>
             </p>
           </div>
         </div>
