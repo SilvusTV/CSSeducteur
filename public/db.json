@@ -1,5 +1,23 @@
 [
   {
+    "id": 11,
+    "title": "Variables CSS : le secret bien gardé pour une personnalisation irrésistible",
+    "slug": "variables-css-secret-bien-garde-personnalisation-irresistible",
+    "imageName": "variables-css-secret-bien-garde-personnalisation-irresistible",
+    "metaDescription": "Découvrez comment les variables CSS révolutionnent la gestion des styles ! Explorez leurs avantages, inconvénients et cas d'utilisation pour des designs modernes, dynamiques et faciles à maintenir.",
+    "metaKeywords": "CSS, variables CSS, custom properties, gestion des styles, personnalisation CSS, design dynamique, CSS moderne, propriétés personnalisées, web design, thème CSS, tutoriel CSS, exemples CSS",
+    "uploadDate": "2024-12-23"
+  },
+  {
+    "id": 10,
+    "title": "Sass : l’élégance incarnée pour des projets CSS sur-mesure",
+    "slug": "sass-lelegance-incarnee-projets-css-sur-mesure",
+    "imageName": "sass-lelegance-incarnee-projets-css-sur-mesure",
+    "metaDescription": "Découvrez Sass, le pré-processeur CSS révolutionnaire qui rend vos projets élégants et performants. Maîtrisez SCSS pour transformer vos feuilles de style.",
+    "metaKeywords": "Sass, SCSS, préprocesseur CSS, variables CSS, mixins, imbrication CSS, boucles CSS, design web, optimisation CSS, outils Sass, tutoriel SCSS",
+    "uploadDate": "2024-12-22"
+  },
+  {
     "id": 9,
     "title": "PostCSS : le magicien discret qui embellit vos feuilles de style",
     "slug": "postcss-magicien-discret-embellit-feuilles-style",
