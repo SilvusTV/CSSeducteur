@@ -1,49 +1,44 @@
-<article>
-  <header>
-    <h1>Animation CSS : donnez vie à vos pages avec un soupçon de magie visuelle</h1>
-  </header>
+<section>
+  <h2>Introduction aux animations CSS</h2>
+  <p>
+    Les animations CSS sont un outil puissant pour transformer des interfaces utilisateur statiques en expériences
+    interactives et engageantes. Qu'il s'agisse d'un simple hover ou d'une transition complexe, elles permettent de
+    capturer l'attention des utilisateurs et de leur offrir une navigation plus fluide et plaisante.
+  </p>
+  <p>
+    Dans cet article, nous allons explorer les bases des animations CSS, leurs avantages et inconvénients, ainsi que
+    des exemples pratiques pour enrichir vos projets web.
+  </p>
+</section>
 
-  <section>
-    <h2>Introduction aux animations CSS</h2>
-    <p>
-      Les animations CSS sont un outil puissant pour transformer des interfaces utilisateur statiques en expériences
-      interactives et engageantes. Qu'il s'agisse d'un simple hover ou d'une transition complexe, elles permettent de
-      capturer l'attention des utilisateurs et de leur offrir une navigation plus fluide et plaisante.
-    </p>
-    <p>
-      Dans cet article, nous allons explorer les bases des animations CSS, leurs avantages et inconvénients, ainsi que
-      des exemples pratiques pour enrichir vos projets web.
-    </p>
-  </section>
+<section>
+  <h2>Pourquoi utiliser des animations CSS ?</h2>
+  <p>
+    Les animations CSS ne se contentent pas d'embellir une page ; elles jouent un rôle clé dans l'expérience
+    utilisateur (UX) en :
+  </p>
+  <ul>
+    <li>Guidant les utilisateurs à travers des interfaces complexes.</li>
+    <li>Ajoutant une touche de personnalité et de style à votre site.</li>
+    <li>Rendant les transitions plus naturelles et moins abruptes.</li>
+  </ul>
+  <p>
+    Cependant, une utilisation excessive ou mal optimisée peut entraîner des performances médiocres, en particulier
+    sur des appareils moins puissants.
+  </p>
+</section>
 
-  <section>
-    <h2>Pourquoi utiliser des animations CSS ?</h2>
-    <p>
-      Les animations CSS ne se contentent pas d'embellir une page ; elles jouent un rôle clé dans l'expérience
-      utilisateur (UX) en :
-    </p>
-    <ul>
-      <li>Guidant les utilisateurs à travers des interfaces complexes.</li>
-      <li>Ajoutant une touche de personnalité et de style à votre site.</li>
-      <li>Rendant les transitions plus naturelles et moins abruptes.</li>
-    </ul>
-    <p>
-      Cependant, une utilisation excessive ou mal optimisée peut entraîner des performances médiocres, en particulier
-      sur des appareils moins puissants.
-    </p>
-  </section>
-
-  <section>
-    <h2>Les bases des animations CSS</h2>
-    <p>
-      Les animations CSS reposent principalement sur deux propriétés : <code>transition</code> et
-      <code>@keyframes</code>. Voici un aperçu de leur fonctionnement :
-    </p>
-    <h3>1. Les transitions CSS</h3>
-    <p>
-      Une transition permet de créer un effet de lissage entre deux états CSS. Voici un exemple simple :
-    </p>
-    <pre>
+<section>
+  <h2>Les bases des animations CSS</h2>
+  <p>
+    Les animations CSS reposent principalement sur deux propriétés : <code>transition</code> et
+    <code>@keyframes</code>. Voici un aperçu de leur fonctionnement :
+  </p>
+  <h3>1. Les transitions CSS</h3>
+  <p>
+    Une transition permet de créer un effet de lissage entre deux états CSS. Voici un exemple simple :
+  </p>
+  <pre>
       <code class="language-css">
 button {
   background-color: #3498db;
@@ -55,11 +50,11 @@ button:hover {
 }
       </code>
     </pre>
-    <h3>2. Les animations avec @keyframes</h3>
-    <p>
-      La règle <code>@keyframes</code> définit une animation qui peut inclure plusieurs étapes. Par exemple :
-    </p>
-    <pre>
+  <h3>2. Les animations avec @keyframes</h3>
+  <p>
+    La règle <code>@keyframes</code> définit une animation qui peut inclure plusieurs étapes. Par exemple :
+  </p>
+  <pre>
       <code class="language-css">
 @keyframes fadeIn {
   from {
@@ -75,13 +70,13 @@ div {
 }
       </code>
     </pre>
-  </section>
+</section>
 
-  <section>
-    <h2>Exemples d'animations CSS populaires</h2>
-    <h3>1. Effet de glissement</h3>
-    <p>Créez un effet de glissement pour un menu déroulant :</p>
-    <pre>
+<section>
+  <h2>Exemples d'animations CSS populaires</h2>
+  <h3>1. Effet de glissement</h3>
+  <p>Créez un effet de glissement pour un menu déroulant :</p>
+  <pre>
       <code class="language-css">
 @keyframes slideDown {
   from {
@@ -97,9 +92,9 @@ div {
 }
       </code>
     </pre>
-    <h3>2. Bouton clignotant</h3>
-    <p>Ajoutez un effet clignotant pour attirer l'attention sur un bouton :</p>
-    <pre>
+  <h3>2. Bouton clignotant</h3>
+  <p>Ajoutez un effet clignotant pour attirer l'attention sur un bouton :</p>
+  <pre>
       <code class="language-css">
 @keyframes blink {
   50% {
@@ -112,38 +107,37 @@ button {
 }
       </code>
     </pre>
-  </section>
+</section>
 
-  <section>
-    <h2>Avantages et inconvénients des animations CSS</h2>
-    <h3>Avantages</h3>
-    <ul>
-      <li>Simples à implémenter directement dans le CSS.</li>
-      <li>Performances optimisées grâce au GPU pour les animations basées sur les transformations et opacités.</li>
-      <li>Compatibles avec la plupart des navigateurs modernes.</li>
-    </ul>
-    <h3>Inconvénients</h3>
-    <ul>
-      <li>Des performances peuvent être impactées si elles ne sont pas correctement optimisées.</li>
-      <li>Manquent de contrôle avancé par rapport à des bibliothèques JavaScript comme GSAP.</li>
-    </ul>
-  </section>
+<section>
+  <h2>Avantages et inconvénients des animations CSS</h2>
+  <h3>Avantages</h3>
+  <ul>
+    <li>Simples à implémenter directement dans le CSS.</li>
+    <li>Performances optimisées grâce au GPU pour les animations basées sur les transformations et opacités.</li>
+    <li>Compatibles avec la plupart des navigateurs modernes.</li>
+  </ul>
+  <h3>Inconvénients</h3>
+  <ul>
+    <li>Des performances peuvent être impactées si elles ne sont pas correctement optimisées.</li>
+    <li>Manquent de contrôle avancé par rapport à des bibliothèques JavaScript comme GSAP.</li>
+  </ul>
+</section>
 
-  <section>
-    <h2>Quand utiliser des bibliothèques d'animations CSS ?</h2>
-    <p>
-      Si vos besoins en animations sont complexes, les bibliothèques d'animations CSS comme Animate.css ou des outils
-      JavaScript comme GSAP peuvent être des alternatives intéressantes. Ces outils offrent des fonctionnalités avancées
-      telles que des séquences d'animations ou des contrôles dynamiques.
-    </p>
-  </section>
+<section>
+  <h2>Quand utiliser des bibliothèques d'animations CSS ?</h2>
+  <p>
+    Si vos besoins en animations sont complexes, les bibliothèques d'animations CSS comme Animate.css ou des outils
+    JavaScript comme GSAP peuvent être des alternatives intéressantes. Ces outils offrent des fonctionnalités avancées
+    telles que des séquences d'animations ou des contrôles dynamiques.
+  </p>
+</section>
 
-  <section>
-    <h2>Conclusion</h2>
-    <p>
-      Les animations CSS sont une excellente façon de donner vie à vos pages et d'améliorer l'expérience utilisateur.
-      Avec une compréhension claire de leurs bases et de leurs limitations, vous pouvez transformer vos projets en
-      expériences visuelles captivantes.
-    </p>
-  </section>
-</article>
+<section>
+  <h2>Conclusion</h2>
+  <p>
+    Les animations CSS sont une excellente façon de donner vie à vos pages et d'améliorer l'expérience utilisateur.
+    Avec une compréhension claire de leurs bases et de leurs limitations, vous pouvez transformer vos projets en
+    expériences visuelles captivantes.
+  </p>
+</section>

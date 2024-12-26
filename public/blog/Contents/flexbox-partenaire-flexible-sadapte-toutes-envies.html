@@ -1,0 +1,135 @@
+<section>
+  <p>Le Flexbox, ou Flexible Box Layout, est une méthode de mise en page CSS qui permet de créer des mises en page
+    flexibles et efficaces, adaptées à une variété de dispositifs et de tailles d'écran. Introduit pour surmonter les
+    limitations des modèles de mise en page traditionnels, le Flexbox offre une approche plus intuitive pour disposer
+    les éléments sur une page web.</p>
+</section>
+<section>
+  <h2>Qu'est-ce que le Flexbox ?
+  </h2>
+  <p>Le Flexbox est un module CSS conçu pour distribuer l'espace entre les éléments d'une interface et aligner ces
+    éléments de manière prévisible, quelle que soit leur taille. Il se compose de deux composants principaux : le
+    conteneur flex (élément parent) et les éléments flex (enfants directs du conteneur). En définissant un conteneur
+    comme un conteneur flex, vous pouvez contrôler la disposition de ses enfants en utilisant diverses propriétés
+    flexibles.</p>
+</section>
+<section>
+  <h2>Pourquoi utiliser le Flexbox ?</h2>
+  <p>Avant l'avènement du Flexbox, les développeurs utilisaient des techniques telles que les flottants
+    (<code>float</code>) et les positionnements absolus pour créer des mises en page complexes. Ces méthodes
+    présentaient des défis en termes d'alignement, de centrage et de réactivité. Le Flexbox simplifie ces tâches en
+    offrant :</p>
+  <ul>
+    <li><b>Alignement simplifié</b> : Il facilite l'alignement horizontal et vertical des éléments sans recourir à des
+      astuces CSS complexes.
+    </li>
+    <li><b>Réorganisation dynamique</b> : Les éléments peuvent changer d'ordre visuel sans modifier le HTML, grâce à la
+      propriété <code>order</code>.
+    </li>
+    <li><b>Adaptabilité</b> : Les éléments peuvent s'étendre ou se contracter pour remplir l'espace disponible,
+      garantissant une mise en page réactive.
+    </li>
+    <li><b>Gestion des espaces</b> : Le Flexbox permet de distribuer l'espace entre les éléments de manière uniforme ou
+      selon des proportions spécifiques.
+    </li>
+  </ul>
+</section>
+<section>
+  <h2>Les propriétés fondamentales du Flexbox
+  </h2>
+  <h3>1. <code> display: flex;</code>
+  </h3>
+  <p>Pour commencer à utiliser le Flexbox, définissez l'élément parent avec <code> display: flex;</code>. Cela
+    transforme tous ses
+    enfants directs en éléments flexibles.</p>
+  <pre><code class="language-css">.container {
+  display: flex;
+}
+</code></pre>
+  <h3>2. <code> flex-direction</code></h3>
+  <p>Cette propriété définit l'axe principal le long duquel les éléments flexibles sont disposés. Les valeurs possibles
+    sont :</p>
+  <ul>
+    <li><code>row </code>:Les éléments sont disposés horizontalement de gauche à droite (par défaut).</li>
+    <li><code>row-reverse</code>: Disposition horizontale de droite à gauche.</li>
+    <li><code>column </code>:Disposition verticale de haut en bas.</li>
+    <li><code>column-reverse</code>:Disposition verticale de bas en haut.</li>
+  </ul>
+  <pre><code class="language-css">.container {
+  flex-direction: row;
+}
+  </code></pre>
+  <h3>3. <code>justify-content</code></h3>
+  <p>Contrôle l'alignement des éléments le long de l'axe principal. Les options incluent :</p>
+  <ul>
+    <li><code>flex-start</code>: Alignement au début de l'axe principal.</li>
+    <li><code>flex-end</code>: Alignement à la fin de l'axe principal.</li>
+    <li><code>center</code>: Alignement au centre de l'axe principal.</li>
+    <li><code>space-between</code>: Espacement égal entre les éléments.</li>
+    <li><code>space-around</code>: Espacement égal autour des éléments.</li>
+  </ul>
+  <pre><code class="language-css">.container {
+  justify-content: center;
+}
+  </code></pre>
+  <h3>4. <code>align-items</code></h3>
+  <p>Détermine l'alignement des éléments le long de l'axe transversal (perpendiculaire à l'axe principal). Les valeurs
+    possibles sont :</p>
+  <ul>
+    <li><code>stretch</code>: Étire les éléments pour remplir l'espace.</li>
+    <li><code>flex-start</code>: Alignement au début de l'axe transversal.</li>
+    <li><code>flex-end</code>: Alignement à la fin de l'axe transversal.</li>
+    <li><code>center</code>: Alignement
+      au centre de l'axe transversal.
+    </li>
+    <li><code>baseline</code>: Alignement basé sur la ligne de base du texte.</li>
+    <li><code>stretch</code>: Étirement des éléments pour remplir l'espace (par défaut).</li>
+  </ul>
+  <pre><code class="language-css">.container {
+  align-items: stretch;
+}
+</code></pre>
+  <h3>5. <code>flex-wrap</code></h3>
+  <p>Par défaut, les éléments flexibles sont disposés sur une seule ligne. La propriété <code>flex-wrap</code> permet
+    aux éléments de passer à une nouvelle ligne si nécessaire. Les valeurs incluent :</p>
+  <ul>
+    <li><code>nowrap</code>: Les éléments sont disposés sur une seule ligne (par défaut).</li>
+    <li><code>wrap</code>: Les éléments sont disposés sur plusieurs lignes si nécessaire.</li>
+    <li><code>wrap-reverse</code>: Les éléments sont disposés sur plusieurs lignes en sens inverse.</li>
+  </ul>
+  <pre><code class="language-css">.container {
+  flex-wrap: wrap;
+}
+</code></pre>
+  <h3>6. <code>flex</code></h3>
+  <p>La propriété <code>flex</code> est une propriété raccourcie qui combine <code>flex-grow</code>,
+    <code>flex-shrink</code> et
+    <code>flex-basis</code>. Elle définit la
+    capacité d'un élément à croître, à rétrécir et sa taille de base.</p>
+  <pre><code class="language-css">.item {
+  flex: 1; /* Croît également parmi les autres éléments flexibles */
+}
+</code></pre>
+  <h3>7. <code>align-self</code></h3>
+  <p>Permet de surcharger l'alignement défini par <code>align-items</code> pour un élément spécifique. Les valeurs sont
+    les mêmes que pour <code>align-items</code>.</p>
+  <pre><code class="language-css">.item {
+  align-self: center;
+}
+</code></pre>
+</section>
+<section>
+  <h2>Conclusion</h2>
+  <p>Le Flexbox est bien plus qu'un simple outil CSS : c'est un véritable partenaire de développement qui offre une
+    flexibilité et une adaptabilité incomparables pour vos mises en page web. Grâce à ses propriétés puissantes telles
+    que <code>flex-direction</code>, <code>justify-content</code>, et <code>align-items</code>, il permet de concevoir
+    des interfaces modernes, réactives et
+    faciles à maintenir.</p>
+  <p>Que vous souhaitiez aligner vos éléments horizontalement, verticalement, ou les répartir harmonieusement dans un
+    conteneur, Flexbox répond à tous vos besoins avec une simplicité remarquable. De la création de barres de navigation
+    élégantes à des systèmes de grille dynamiques, il est l'allié idéal pour garantir une expérience utilisateur fluide
+    sur tous les appareils.</p>
+  <p>En maîtrisant Flexbox, vous vous offrez la possibilité de gagner du temps, de réduire la complexité de votre code
+    CSS, et surtout, de réaliser des designs qui s'adaptent parfaitement à chaque écran.</p>
+  <p>Alors, êtes-vous prêt à laisser Flexbox devenir le partenaire flexible de vos prochains projets web ? 🚀</p>
+</section>

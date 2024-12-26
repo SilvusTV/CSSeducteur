@@ -1,38 +1,36 @@
-<article>
-  <section>
-    <h2>Introduction à Sass : une révolution dans l’univers CSS</h2>
-    <p>Depuis son introduction en 2006, Sass (Syntactically Awesome Stylesheets) est devenu l’outil de référence pour
-      les développeurs front-end cherchant à créer des feuilles de style à la fois complexes et maintenables. En
-      proposant des fonctionnalités avancées comme les variables, les mixins et les boucles, Sass s’impose comme un
-      outil incontournable pour des projets CSS sur-mesure.</p>
-  </section>
+<section>
+  <p>Depuis son introduction en 2006, Sass (Syntactically Awesome Stylesheets) est devenu l’outil de référence pour
+    les développeurs front-end cherchant à créer des feuilles de style à la fois complexes et maintenables. En
+    proposant des fonctionnalités avancées comme les variables, les mixins et les boucles, Sass s’impose comme un
+    outil incontournable pour des projets CSS sur-mesure.</p>
+</section>
 
-  <section>
-    <h2>Pourquoi choisir Sass ? Les avantages du préprocesseur</h2>
-    <p>Sass ne se contente pas de simplifier le travail des développeurs : il transforme la façon dont nous envisageons
-      le CSS.</p>
-    <ul>
-      <li><strong>Modularité :</strong> Sass permet de diviser votre CSS en plusieurs fichiers, facilitant ainsi la
-        gestion et la maintenance.
-      </li>
-      <li><strong>Variables :</strong> Grâce aux variables, vous pouvez définir des couleurs, des tailles et d’autres
-        valeurs une seule fois et les réutiliser partout.
-      </li>
-      <li><strong>Mixins :</strong> Les mixins vous permettent de créer des groupes de styles réutilisables, évitant
-        ainsi la répétition de code.
-      </li>
-      <li><strong>Imbrication :</strong> L’imbrication rend le code plus lisible en reflétant la hiérarchie HTML.</li>
-      <li><strong>Compatibilité :</strong> Sass compile en CSS standard, garantissant une compatibilité universelle.
-      </li>
-    </ul>
-  </section>
+<section>
+  <h2>Pourquoi choisir Sass ? Les avantages du préprocesseur</h2>
+  <p>Sass ne se contente pas de simplifier le travail des développeurs : il transforme la façon dont nous envisageons
+    le CSS.</p>
+  <ul>
+    <li><strong>Modularité :</strong> Sass permet de diviser votre CSS en plusieurs fichiers, facilitant ainsi la
+      gestion et la maintenance.
+    </li>
+    <li><strong>Variables :</strong> Grâce aux variables, vous pouvez définir des couleurs, des tailles et d’autres
+      valeurs une seule fois et les réutiliser partout.
+    </li>
+    <li><strong>Mixins :</strong> Les mixins vous permettent de créer des groupes de styles réutilisables, évitant
+      ainsi la répétition de code.
+    </li>
+    <li><strong>Imbrication :</strong> L’imbrication rend le code plus lisible en reflétant la hiérarchie HTML.</li>
+    <li><strong>Compatibilité :</strong> Sass compile en CSS standard, garantissant une compatibilité universelle.
+    </li>
+  </ul>
+</section>
 
-  <section>
-    <h2>Les bases de Sass : syntaxe et concepts clés</h2>
-    <h3>1. Les variables</h3>
-    <p>Les variables dans Sass commencent par le symbole <code>$</code> et permettent de centraliser des valeurs.
-      Exemple :</p>
-    <pre><code class="language-css">
+<section>
+  <h2>Les bases de Sass : syntaxe et concepts clés</h2>
+  <h3>1. Les variables</h3>
+  <p>Les variables dans Sass commencent par le symbole <code>$</code> et permettent de centraliser des valeurs.
+    Exemple :</p>
+  <pre><code class="language-css">
 $primary-color: #3498db;
 $font-stack: Helvetica, sans-serif;
 
@@ -42,9 +40,9 @@ body {
 }
     </code></pre>
 
-    <h3>2. Les mixins</h3>
-    <p>Les mixins sont des blocs de code réutilisables :</p>
-    <pre><code class="language-css">
+  <h3>2. Les mixins</h3>
+  <p>Les mixins sont des blocs de code réutilisables :</p>
+  <pre><code class="language-css">
 @mixin box-shadow($x, $y, $blur, $color) {
   box-shadow: $x $y $blur $color;
 }
@@ -54,9 +52,9 @@ div {
 }
     </code></pre>
 
-    <h3>3. Les imbrications</h3>
-    <p>Avec Sass, vous pouvez imbriquer des sélecteurs pour refléter la structure HTML :</p>
-    <pre><code class="language-css">
+  <h3>3. Les imbrications</h3>
+  <p>Avec Sass, vous pouvez imbriquer des sélecteurs pour refléter la structure HTML :</p>
+  <pre><code class="language-css">
 nav {
   ul {
     margin: 0;
@@ -69,45 +67,45 @@ nav {
 }
     </code></pre>
 
-    <h3>4. Les fonctions</h3>
-    <p>Sass inclut des fonctions utiles pour manipuler les couleurs, les unités, et plus encore :</p>
-    <pre><code class="language-css">
+  <h3>4. Les fonctions</h3>
+  <p>Sass inclut des fonctions utiles pour manipuler les couleurs, les unités, et plus encore :</p>
+  <pre><code class="language-css">
 $dark-blue: darken(#3498db, 20%);
 
 button {
   background-color: $dark-blue;
 }
     </code></pre>
-  </section>
+</section>
 
-  <section>
-    <h2>Les inconvénients de Sass : ce qu’il faut savoir</h2>
-    <p>Malgré ses nombreux avantages, Sass présente quelques limites :</p>
-    <ul>
-      <li><strong>Apprentissage :</strong> Pour les débutants, la syntaxe et les concepts avancés peuvent être
-        intimidants.
-      </li>
-      <li><strong>Temps de compilation :</strong> La compilation ajoute une couche supplémentaire au processus de
-        développement.
-      </li>
-      <li><strong>Complexité :</strong> Une utilisation excessive des fonctionnalités avancées peut rendre le code
-        difficile à comprendre.
-      </li>
-    </ul>
-  </section>
+<section>
+  <h2>Les inconvénients de Sass : ce qu’il faut savoir</h2>
+  <p>Malgré ses nombreux avantages, Sass présente quelques limites :</p>
+  <ul>
+    <li><strong>Apprentissage :</strong> Pour les débutants, la syntaxe et les concepts avancés peuvent être
+      intimidants.
+    </li>
+    <li><strong>Temps de compilation :</strong> La compilation ajoute une couche supplémentaire au processus de
+      développement.
+    </li>
+    <li><strong>Complexité :</strong> Une utilisation excessive des fonctionnalités avancées peut rendre le code
+      difficile à comprendre.
+    </li>
+  </ul>
+</section>
 
-  <section>
-    <h2>Comment intégrer Sass dans votre projet ?</h2>
-    <p>Pour utiliser Sass, vous devez disposer d’un compilateur. Voici quelques outils populaires :</p>
-    <ul>
-      <li><strong>Command Line Interface (CLI) :</strong> La manière officielle de compiler Sass via des commandes
-        terminal.
-      </li>
-      <li><strong>Webpack :</strong> Intégrez Sass dans votre flux de travail avec ce module bundler.</li>
-      <li><strong>Prepros :</strong> Une solution simple avec une interface graphique.</li>
-    </ul>
-    <p>Exemple de configuration avec Webpack :</p>
-    <pre><code class="language-javascript">
+<section>
+  <h2>Comment intégrer Sass dans votre projet ?</h2>
+  <p>Pour utiliser Sass, vous devez disposer d’un compilateur. Voici quelques outils populaires :</p>
+  <ul>
+    <li><strong>Command Line Interface (CLI) :</strong> La manière officielle de compiler Sass via des commandes
+      terminal.
+    </li>
+    <li><strong>Webpack :</strong> Intégrez Sass dans votre flux de travail avec ce module bundler.</li>
+    <li><strong>Prepros :</strong> Une solution simple avec une interface graphique.</li>
+  </ul>
+  <p>Exemple de configuration avec Webpack :</p>
+  <pre><code class="language-javascript">
 module.exports = {
   module: {
     rules: [
@@ -123,15 +121,15 @@ module.exports = {
   }
 };
     </code></pre>
-  </section>
+</section>
 
-  <section>
-    <h2>Conclusion : pourquoi Sass est-il indispensable ?</h2>
-    <p>Sass s’impose comme un outil indispensable pour les développeurs modernes. En résolvant les limitations du CSS
-      traditionnel et en apportant une structure et une logique, il transforme vos feuilles de style en un atout
-      stratégique. Que vous soyez un débutant ou un expert, adopter Sass, c’est faire le choix de l’élégance et de la
-      performance.</p>
-    <p>Prêts à donner un nouveau souffle à vos projets CSS ? Plongez dans l’univers de Sass et réalisez des designs
-      sur-mesure avec style.</p>
-  </section>
-</article>
+<section>
+  <h2>Conclusion : pourquoi Sass est-il indispensable ?</h2>
+  <p>Sass s’impose comme un outil indispensable pour les développeurs modernes. En résolvant les limitations du CSS
+    traditionnel et en apportant une structure et une logique, il transforme vos feuilles de style en un atout
+    stratégique. Que vous soyez un débutant ou un expert, adopter Sass, c’est faire le choix de l’élégance et de la
+    performance.</p>
+  <p>Prêts à donner un nouveau souffle à vos projets CSS ? Plongez dans l’univers de Sass et réalisez des designs
+    sur-mesure avec style.</p>
+</section>
+

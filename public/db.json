@@ -1,5 +1,14 @@
 [
   {
+    "id": 12,
+    "title": "Flexbox : le partenaire flexible qui s’adapte à toutes vos envies",
+    "slug": "flexbox-partenaire-flexible-sadapte-toutes-envies",
+    "imageName": "flexbox-partenaire-flexible-sadapte-toutes-envies",
+    "metaDescription": "Découvrez Flexbox, le modèle de mise en page CSS incontournable pour des designs modernes et flexibles. Apprenez ses propriétés clés, ses avantages, et maîtrisez sa mise en œuvre avec des exemples pratiques",
+    "metaKeywords": "CSS, Flexbox, mise en page CSS, alignement CSS, conteneur flexible, propriétés Flexbox, CSS moderne, design réactif, layout CSS, tutoriel Flexbox, exemples Flexbox, web design, développement front-end",
+    "uploadDate": "2024-12-24"
+  },
+  {
     "id": 11,
     "title": "Variables CSS : le secret bien gardé pour une personnalisation irrésistible",
     "slug": "variables-css-secret-bien-garde-personnalisation-irresistible",

@@ -1,70 +1,66 @@
-<article>
-  <header>
-    <h1>PostCSS : le magicien discret qui embellit vos feuilles de style</h1>
-  </header>
-  <section>
-    <p>
-      Dans le monde du développement front-end, les outils de gestion et de transformation CSS sont légion. Parmi eux,
-      PostCSS se distingue comme un véritable magicien, capable de transformer vos feuilles de style en de puissants
-      chefs-d'œuvre. Mais qu'est-ce que PostCSS, comment fonctionne-t-il, et pourquoi devriez-vous envisager de
-      l'intégrer dans votre flux de travail ? Cet article explore en profondeur cet outil et ses incroyables capacités.
-    </p>
-  </section>
+<section>
+  <p>
+    Dans le monde du développement front-end, les outils de gestion et de transformation CSS sont légion. Parmi eux,
+    PostCSS se distingue comme un véritable magicien, capable de transformer vos feuilles de style en de puissants
+    chefs-d'œuvre. Mais qu'est-ce que PostCSS, comment fonctionne-t-il, et pourquoi devriez-vous envisager de
+    l'intégrer dans votre flux de travail ? Cet article explore en profondeur cet outil et ses incroyables capacités.
+  </p>
+</section>
 
-  <section>
-    <h2>Qu'est-ce que PostCSS ?</h2>
-    <p>
-      PostCSS est un outil de traitement CSS basé sur des plugins. Contrairement aux préprocesseurs comme Sass ou LESS,
-      PostCSS agit comme un post-processeur : il analyse vos fichiers CSS, applique des transformations à l'aide de
-      plugins, et génère un nouveau fichier CSS optimisé.
-    </p>
-    <p>
-      En résumé, PostCSS est une boîte à outils qui permet aux développeurs de choisir exactement les fonctionnalités
-      dont ils ont besoin, créant ainsi une chaîne de traitement sur mesure.
-    </p>
-  </section>
+<section>
+  <h2>Qu'est-ce que PostCSS ?</h2>
+  <p>
+    PostCSS est un outil de traitement CSS basé sur des plugins. Contrairement aux préprocesseurs comme Sass ou LESS,
+    PostCSS agit comme un post-processeur : il analyse vos fichiers CSS, applique des transformations à l'aide de
+    plugins, et génère un nouveau fichier CSS optimisé.
+  </p>
+  <p>
+    En résumé, PostCSS est une boîte à outils qui permet aux développeurs de choisir exactement les fonctionnalités
+    dont ils ont besoin, créant ainsi une chaîne de traitement sur mesure.
+  </p>
+</section>
 
-  <section>
-    <h2>Avantages de PostCSS</h2>
-    <ul>
-      <li>
-        <strong>Flexibilité :</strong> Avec des milliers de plugins disponibles, PostCSS peut être configuré pour
-        répondre à presque tous les besoins, du préfixage automatique à l'optimisation des performances.
-      </li>
-      <li>
-        <strong>Interopérabilité :</strong> PostCSS peut être utilisé avec n'importe quelle syntaxe CSS, y compris les
-        fichiers Sass ou LESS, ce qui en fait un outil extrêmement polyvalent.
-      </li>
-      <li>
-        <strong>Communauté :</strong> Grâce à une communauté active, de nouveaux plugins et mises à jour sont
-        constamment ajoutés, garantissant que PostCSS reste pertinent.
-      </li>
-    </ul>
-  </section>
+<section>
+  <h2>Avantages de PostCSS</h2>
+  <ul>
+    <li>
+      <strong>Flexibilité :</strong> Avec des milliers de plugins disponibles, PostCSS peut être configuré pour
+      répondre à presque tous les besoins, du préfixage automatique à l'optimisation des performances.
+    </li>
+    <li>
+      <strong>Interopérabilité :</strong> PostCSS peut être utilisé avec n'importe quelle syntaxe CSS, y compris les
+      fichiers Sass ou LESS, ce qui en fait un outil extrêmement polyvalent.
+    </li>
+    <li>
+      <strong>Communauté :</strong> Grâce à une communauté active, de nouveaux plugins et mises à jour sont
+      constamment ajoutés, garantissant que PostCSS reste pertinent.
+    </li>
+  </ul>
+</section>
 
-  <section>
-    <h2>Inconvénients de PostCSS</h2>
-    <ul>
-      <li>
-        <strong>Configuration :</strong> La flexibilité de PostCSS peut être un inconvénient pour les débutants, car la
-        configuration initiale nécessite une compréhension des plugins et de leur utilisation.
-      </li>
-      <li>
-        <strong>Dépendance aux plugins :</strong> PostCSS est uniquement aussi puissant que les plugins utilisés. Une
-        mauvaise sélection ou un mauvais paramétrage peut entraîner des erreurs ou des inefficacités.
-      </li>
-    </ul>
-  </section>
+<section>
+  <h2>Inconvénients de PostCSS</h2>
+  <ul>
+    <li>
+      <strong>Configuration :</strong> La flexibilité de PostCSS peut être un inconvénient pour les débutants, car la
+      configuration initiale nécessite une compréhension des plugins et de leur utilisation.
+    </li>
+    <li>
+      <strong>Dépendance aux plugins :</strong> PostCSS est uniquement aussi puissant que les plugins utilisés. Une
+      mauvaise sélection ou un mauvais paramétrage peut entraîner des erreurs ou des inefficacités.
+    </li>
+  </ul>
+</section>
 
-  <section>
-    <h2>Exemples concrets d'utilisation</h2>
+<section>
+  <h2>Exemples concrets d'utilisation</h2>
 
-    <h3>1. Préfixage automatique avec Autoprefixer</h3>
-    <p>
-      L'un des plugins les plus populaires pour PostCSS est Autoprefixer, qui ajoute automatiquement les préfixes
-      nécessaires pour assurer la compatibilité entre les navigateurs.
-    </p>
-    <pre>
+  <h3>1. Préfixage automatique avec Autoprefixer</h3>
+  <p>
+    L'un des plugins les plus populaires pour PostCSS est Autoprefixer, qui ajoute automatiquement les préfixes
+    nécessaires pour assurer la compatibilité entre les navigateurs.
+  </p>
+  <pre>
 <code class="language-css">
 /* Avant */
 div {
@@ -80,12 +76,12 @@ div {
 </code>
     </pre>
 
-    <h3>2. Optimisation des performances avec CSSNano</h3>
-    <p>
-      CSSNano est un plugin qui compresse et optimise le CSS pour réduire la taille des fichiers, améliorant ainsi les
-      temps de chargement.
-    </p>
-    <pre>
+  <h3>2. Optimisation des performances avec CSSNano</h3>
+  <p>
+    CSSNano est un plugin qui compresse et optimise le CSS pour réduire la taille des fichiers, améliorant ainsi les
+    temps de chargement.
+  </p>
+  <pre>
 <code class="language-css">
 /* Avant */
 body {
@@ -99,12 +95,12 @@ body{margin:0;padding:0;font-size:16px}
 </code>
     </pre>
 
-    <h3>3. Utilisation de variables avec postcss-preset-env</h3>
-    <p>
-      Ce plugin permet d'utiliser les fonctionnalités CSS modernes, telles que les variables, tout en assurant la
-      rétrocompatibilité.
-    </p>
-    <pre>
+  <h3>3. Utilisation de variables avec postcss-preset-env</h3>
+  <p>
+    Ce plugin permet d'utiliser les fonctionnalités CSS modernes, telles que les variables, tout en assurant la
+    rétrocompatibilité.
+  </p>
+  <pre>
 <code class="language-css">
 /* Avant */
 :root {
@@ -120,21 +116,21 @@ button {
 }
 </code>
     </pre>
-  </section>
+</section>
 
-  <section>
-    <h2>Comment intégrer PostCSS dans votre projet</h2>
-    <p>
-      L'intégration de PostCSS dans un projet est relativement simple grâce à son écosystème bien documenté. Voici un
-      exemple avec un projet basé sur npm :
-    </p>
-    <pre>
+<section>
+  <h2>Comment intégrer PostCSS dans votre projet</h2>
+  <p>
+    L'intégration de PostCSS dans un projet est relativement simple grâce à son écosystème bien documenté. Voici un
+    exemple avec un projet basé sur npm :
+  </p>
+  <pre>
 <code class="language-bash">
 # Installation de PostCSS et Autoprefixer
 npm install postcss autoprefixer --save-dev
 </code>
     </pre>
-    <pre>
+  <pre>
 <code class="language-javascript">
 # Exemple de configuration dans postcss.config.js
 module.exports = {
@@ -145,17 +141,16 @@ module.exports = {
 };
 </code>
     </pre>
-  </section>
+</section>
 
-  <section>
-    <h2>Conclusion</h2>
-    <p>
-      PostCSS est bien plus qu'un simple outil CSS. C'est une plateforme de transformation puissante qui peut
-      rationaliser votre flux de travail, optimiser vos fichiers CSS et vous permettre de tirer parti des
-      fonctionnalités modernes tout en assurant une compatibilité maximale.
-    </p>
-    <p>
-      Alors, êtes-vous prêt à laisser PostCSS jouer le rôle de magicien discret dans vos projets front-end ?
-    </p>
-  </section>
-</article>
+<section>
+  <h2>Conclusion</h2>
+  <p>
+    PostCSS est bien plus qu'un simple outil CSS. C'est une plateforme de transformation puissante qui peut
+    rationaliser votre flux de travail, optimiser vos fichiers CSS et vous permettre de tirer parti des
+    fonctionnalités modernes tout en assurant une compatibilité maximale.
+  </p>
+  <p>
+    Alors, êtes-vous prêt à laisser PostCSS jouer le rôle de magicien discret dans vos projets front-end ?
+  </p>
+</section>
