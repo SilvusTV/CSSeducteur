@@ -1,5 +1,14 @@
 [
   {
+    "id": 13,
+    "title": "CSS Grid : l’architecte séducteur des mises en page modernes",
+    "slug": "css-grid-larchitecte-seducteur-mises-page-modernes",
+    "imageName": "css-grid-larchitecte-seducteur-mises-page-modernes",
+    "metaDescription": "Découvrez CSS Grid, l'outil incontournable pour des mises en page modernes et dynamiques. Maîtrisez ses propriétés, ses avantages, et apprenez à le combiner avec Flexbox pour des designs optimaux.",
+    "metaKeywords": "CSS Grid, mise en page CSS, architecture CSS, flexbox vs grid, design responsive, grid-template, layout CSS, alignement CSS, grille CSS, tutoriel CSS Grid, exemple CSS Grid, développement front-end.",
+    "uploadDate": "2024-12-25"
+  },
+  {
     "id": 12,
     "title": "Flexbox : le partenaire flexible qui s’adapte à toutes vos envies",
     "slug": "flexbox-partenaire-flexible-sadapte-toutes-envies",
