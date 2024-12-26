@@ -11,7 +11,7 @@ export default function Home() {
         title={"CSSéducteur : trouvez le framework CSS fait pour vous"}
         url={"https://csseducteur.love"}
         metaDescription={
-          "Laissez CSSéducteur vous charmer : trouvez le framework CSS fait pour vous, celui qui saura sublimer vos projets et vous garder à la pointe des tendances envoûtantes du développement web."
+          "Découvrez CSSéducteur : le guide ultime pour choisir le framework CSS parfait et sublimer vos projets web."
         }
         metaKeywords={
           "CSS, framework CSS, CSSéducteur, choisir framework CSS, développement web, design responsive, tendances CSS, séduction web, projets web élégants, veille technologique CSS, outils front-end, sublimer projets web, charme du développement, francais"
@@ -119,6 +119,49 @@ export default function Home() {
             </div>
           ))}
         </div>
+      </section>
+      {/* Section Qui sommes-nous */}
+      <section className="m-auto mb-10 mt-10 flex w-9/12 flex-col rounded-3xl bg-white p-8 shadow-lg max-md:w-10/12 max-sm:w-11/12">
+        <h2 className="mb-6 text-3xl font-bold text-gray-800">
+          Qui sommes-nous ?
+        </h2>
+        <p className="mb-4 text-lg text-gray-600">
+          CSSéducteur est né d'une passion commune pour le développement
+          front-end et le design web. Notre équipe est composée de développeurs,
+          designers et experts en veille technologique, tous unis par la même
+          ambition : rendre le choix d'un framework CSS simple et accessible à
+          tous.
+        </p>
+        <p className="mb-4 text-lg text-gray-600">
+          Notre objectif ? Vous guider pas à pas dans le choix du framework CSS
+          qui sublimera vos projets, en vous fournissant des analyses
+          détaillées, des comparatifs pertinents et des ressources éducatives
+          claires.
+        </p>
+        <p className="text-lg text-gray-600">
+          Chez CSSéducteur, chaque recommandation est le fruit d'une recherche
+          approfondie et d'une veille technologique constante.
+        </p>
+      </section>
+
+      {/* Section Notre Mission */}
+      <section className="m-auto mb-10 mt-10 flex w-9/12 flex-col rounded-3xl bg-white p-8 shadow-lg max-md:w-10/12 max-sm:w-11/12">
+        <h2 className="mb-6 text-3xl font-bold text-gray-800">Notre Mission</h2>
+        <p className="mb-4 text-lg text-gray-600">
+          Notre mission est simple : vous offrir une plateforme de référence
+          pour comprendre, choisir et maîtriser les frameworks CSS. Qu'il
+          s'agisse de Tailwind, Bootstrap, ou de solutions moins connues mais
+          tout aussi puissantes, CSSéducteur est là pour vous éclairer.
+        </p>
+        <p className="mb-4 text-lg text-gray-600">
+          Nous croyons fermement que chaque projet mérite un outil adapté, et
+          nous mettons tout en œuvre pour vous fournir les meilleures ressources
+          pour y parvenir.
+        </p>
+        <p className="text-lg text-gray-600">
+          Rejoignez-nous dans cette aventure et découvrez comment CSSéducteur
+          peut transformer votre manière de coder.
+        </p>
       </section>
 
       {/* Section : Communauté */}

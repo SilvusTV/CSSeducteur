@@ -19,9 +19,9 @@ export default function Navbar(props: NavbarProps) {
           src="/pictures/css-blank.svg"
           alt="CSSeducteur logo"
         />
-        <h1 className={"text-4xl font-extrabold text-white max-lg:hidden"}>
+        <p className={"text-4xl font-extrabold text-white max-lg:hidden"}>
           CSSeducteur
-        </h1>
+        </p>
       </a>
       <nav
         className={clsx(
