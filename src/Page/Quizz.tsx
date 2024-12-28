@@ -8,7 +8,6 @@ import { getFramework, getQuestions } from "../Tools/InterationQuizz.ts";
 import clsx from "clsx";
 
 const questions = getQuestions();
-
 const frameworks = getFramework();
 
 const QuizPage = () => {
@@ -18,8 +17,8 @@ const QuizPage = () => {
   const [result, setResult] = useState<Framework | null>(null);
 
   const handleAnswer = (optionIndex: number) => {
-    // Enregistrer la réponse
-    const newAnswers = [...answers, optionIndex];
+    const newAnswers = [...answers];
+    newAnswers[currentQuestion] = optionIndex;
     setAnswers(newAnswers);
 
     if (currentQuestion < questions.length - 1) {
@@ -27,6 +26,12 @@ const QuizPage = () => {
     } else {
       calculateResult(newAnswers);
       setIsCompleted(true);
+    }
+  };
+
+  const handlePrevious = () => {
+    if (currentQuestion > 0) {
+      setCurrentQuestion(currentQuestion - 1);
     }
   };
 
@@ -117,15 +122,18 @@ const QuizPage = () => {
                 </button>
               ))}
             </div>
-            <button
-              className={clsx(
-                "mx-auto mt-12 transform rounded-lg border border-gray-300 bg-white px-6 py-3 font-medium text-gray-700 shadow-md transition-transform hover:scale-105 hover:border-blue-500 hover:bg-blue-50",
-                currentQuestion === 0 && "hidden",
-              )}
-              onClick={() => setCurrentQuestion(currentQuestion - 1)}
-            >
-              &larr; question précédente
-            </button>
+
+            <div className="mt-8 flex w-full justify-between">
+              <button
+                className={clsx(
+                  "transform rounded-lg border border-gray-300 bg-white px-6 py-3 font-medium text-gray-700 shadow-md transition-transform hover:scale-105 hover:border-blue-500 hover:bg-blue-50",
+                  currentQuestion === 0 && "invisible",
+                )}
+                onClick={handlePrevious}
+              >
+                &larr; Question précédente
+              </button>
+            </div>
           </div>
         )}
       </div>
