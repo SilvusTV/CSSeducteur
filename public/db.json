@@ -1,5 +1,23 @@
 [
   {
+    "id": 15,
+    "title": "CSS Scroll Snap : Offrez une expérience de défilement fluide à vos utilisateurs",
+    "slug": "css-scroll-snap-offrez-experience-defilement-fluide-utilisateurs",
+    "imageName": "css-scroll-snap-offrez-experience-defilement-fluide-utilisateurs",
+    "metaDescription": "Découvrez CSS Scroll Snap : optimisez le défilement de vos pages web pour une navigation fluide, précise et intuitive. Maîtrisez cette fonctionnalité CSS essentielle.",
+    "metaKeywords": "CSS Scroll Snap, défilement fluide CSS, scroll-snap-type, scroll-snap-align, carrousel CSS, galerie CSS, défilement web, optimisation défilement CSS, expérience utilisateur, CSS moderne.\n\n",
+    "uploadDate": "2024-12-27"
+  },
+  {
+    "id": 14,
+    "title": "React 19 : les fonctionnalités que vous devez connaître",
+    "slug": "react-19-fonctionnalites-devez-connaitre",
+    "imageName": "react-19-fonctionnalites-devez-connaitre",
+    "metaDescription": "Découvrez les nouveautés de React 19 : Actions, nouveaux Hooks, amélioration du rendu serveur et bien plus. Boostez vos applications avec ces fonctionnalités clés.",
+    "metaKeywords": "React 19, nouveautés React, React Hooks, Actions React, hydratation React, Context API React, composants personnalisés React, mise à niveau React 19, guide React 19, développement React.",
+    "uploadDate": "2024-12-26"
+  },
+  {
     "id": 13,
     "title": "CSS Grid : l’architecte séducteur des mises en page modernes",
     "slug": "css-grid-larchitecte-seducteur-mises-page-modernes",

@@ -1,0 +1,124 @@
+<p>
+  Le défilement fluide est une fonctionnalité qui améliore considérablement l'expérience utilisateur sur les sites web
+  modernes. Grâce à CSS Scroll Snap, il est désormais possible de créer des effets de défilement précis et fluides,
+  offrant une navigation intuitive et esthétique.
+</p>
+
+<section>
+  <h2>🌟 Qu'est-ce que CSS Scroll Snap ?</h2>
+  <p>
+    CSS Scroll Snap est une fonctionnalité du langage CSS qui permet de contrôler précisément le comportement du
+    défilement des éléments dans une page. Contrairement au défilement classique, Scroll Snap permet d'arrêter
+    automatiquement le défilement à des points précis définis par le développeur.
+  </p>
+  <p>
+    Cette technologie est particulièrement utile pour les carrousels, les galeries d'images ou les listes horizontales
+    et verticales.
+  </p>
+</section>
+
+<section>
+  <h2>🛠️ Comment fonctionne CSS Scroll Snap ?</h2>
+  <p>
+    CSS Scroll Snap repose principalement sur deux propriétés : <code>scroll-snap-type</code> et
+    <code>scroll-snap-align</code>. Voici comment elles fonctionnent :
+  </p>
+  <ul>
+    <li><strong>scroll-snap-type :</strong> Définit la direction et le comportement du défilement.</li>
+    <li><strong>scroll-snap-align :</strong> Contrôle l'alignement de chaque élément au point d'accrochage.</li>
+  </ul>
+  <h3>Exemple de CSS Scroll Snap :</h3>
+  <pre>
+      <code class="language-css">
+.scroll-container {
+  scroll-snap-type: x mandatory;
+  overflow-x: scroll;
+  display: flex;
+}
+
+.scroll-item {
+  scroll-snap-align: start;
+  flex: none;
+  width: 300px;
+  height: 200px;
+  margin-right: 10px;
+  background-color: lightblue;
+}
+      </code>
+    </pre>
+  <p>
+    Dans cet exemple, chaque élément de la liste défile horizontalement et s'aligne automatiquement au début de chaque
+    élément.
+  </p>
+</section>
+
+<section>
+  <h2>📊 Les avantages de CSS Scroll Snap</h2>
+  <p>
+    CSS Scroll Snap présente plusieurs avantages clés pour les développeurs et les utilisateurs finaux :
+  </p>
+  <ul>
+    <li><strong>Expérience utilisateur améliorée :</strong> Navigation plus fluide et intuitive.</li>
+    <li><strong>Précision :</strong> Défilement automatique aux points définis.</li>
+    <li><strong>Compatibilité multi-appareils :</strong> Fonctionne sur desktop et mobile.</li>
+    <li><strong>Moins de JavaScript :</strong> Réduit le besoin de bibliothèques tierces pour gérer le défilement.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>💻 Cas d'utilisation courants</h2>
+  <p>
+    CSS Scroll Snap peut être utilisé dans plusieurs scénarios pour offrir une expérience utilisateur optimale :
+  </p>
+  <ul>
+    <li><strong>Galeries d'images :</strong> Permet aux utilisateurs de passer facilement d'une image à une autre.</li>
+    <li><strong>Carrousels :</strong> Idéal pour les sections de produits ou les diaporamas.</li>
+    <li><strong>Pages d'accueil :</strong> Sections déroulantes avec des points d'arrêt précis.</li>
+  </ul>
+  <h3>Exemple de carrousel avec CSS Scroll Snap :</h3>
+  <pre>
+      <code class="language-css">
+.carousel {
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+.carousel-item {
+  scroll-snap-align: center;
+  width: 100%;
+  height: 300px;
+  background: lightcoral;
+}
+      </code>
+    </pre>
+  <p>
+    Chaque élément du carrousel s'aligne parfaitement au centre lors du défilement.
+  </p>
+</section>
+
+<section>
+  <h2>🔑 Bonnes pratiques pour utiliser CSS Scroll Snap</h2>
+  <ul>
+    <li>Utilisez des conteneurs avec une largeur ou une hauteur fixe.</li>
+    <li>Testez le défilement sur différents appareils pour garantir une expérience cohérente.</li>
+    <li>Ajoutez des propriétés de défilement doux avec <code>scroll-behavior: smooth;</code>.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>🚀 Conclusion</h2>
+  <p>
+    CSS Scroll Snap est une fonctionnalité puissante qui transforme la manière dont les utilisateurs interagissent avec
+    les sites web. Grâce à une configuration simple et des résultats impressionnants, elle devient un outil
+    indispensable pour les développeurs modernes.
+  </p>
+  <p>
+    Adoptez CSS Scroll Snap dès aujourd'hui pour offrir une expérience utilisateur fluide et professionnelle. Que ce
+    soit pour un carrousel, une galerie d'images ou une mise en page complexe, CSS Scroll Snap est votre allié.
+  </p>
+</section>
+
+<footer>
+  <p>Source : <a href="https://app.daily.dev/posts/O9zQVfZvV" target="_blank">Daily.dev</a></p>
+</footer>
