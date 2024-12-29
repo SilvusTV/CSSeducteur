@@ -1,0 +1,152 @@
+<p>
+  Découvrez comment la future fonction <code>ident()</code> promet de simplifier la création de noms CSS uniques pour
+  les animations, les transitions et plus encore.
+</p>
+
+<section>
+  <h2>🌟 Pourquoi des identifiants uniques sont essentiels en CSS ?</h2>
+  <p>
+    De nombreuses fonctionnalités CSS modernes, telles que <code>view-transition-name</code>,
+    <code>container-name</code> ou <code>scroll-timeline-name</code>, nécessitent des identifiants uniques pour
+    fonctionner correctement. Cela peut devenir fastidieux lorsque vous devez attribuer manuellement des noms à
+    plusieurs éléments.
+  </p>
+  <h3>Exemple classique :</h3>
+  <pre>
+      <code class="language-css">
+.parent {
+  timeline-scope: all;
+}
+
+main {
+  div:nth-child(1) { view-timeline-name: --tl-1; }
+  div:nth-child(2) { view-timeline-name: --tl-2; }
+  div:nth-child(3) { view-timeline-name: --tl-3; }
+}
+
+nav {
+  li:nth-child(1) { animation-timeline: --tl-1; }
+  li:nth-child(2) { animation-timeline: --tl-2; }
+  li:nth-child(3) { animation-timeline: --tl-3; }
+}
+      </code>
+    </pre>
+  <p>
+    Imaginez répéter ce processus pour des centaines d'éléments ! La fonction <code>ident()</code> vient résoudre ce
+    problème.
+  </p>
+</section>
+
+<section>
+  <h2>🛠️ La solution : la fonction ident()</h2>
+  <p>
+    La fonction <code>ident()</code> permet de générer dynamiquement des valeurs uniques pour les identifiants CSS.
+  </p>
+  <h3>Syntaxe :</h3>
+  <pre>
+      <code class="language-javascript">ident(&lt;ident-args&gt;#);
+&lt;ident-args&gt; = [&lt;string&gt; | &lt;integer&gt; | &lt;ident&gt;]
+      </code>
+    </pre>
+  <p>
+    Les arguments peuvent inclure des chaînes de caractères, des entiers ou d'autres identifiants.
+  </p>
+  <h3>Exemple d'utilisation :</h3>
+  <pre>
+      <code class="language-css">
+.parent {
+  timeline-scope: all;
+}
+
+nav li {
+  animation-timeline: ident("--tl-" sibling-index());
+}
+
+main div {
+  view-timeline-name: ident("--tl-" sibling-index());
+}
+      </code>
+    </pre>
+  <p>
+    Ici, les valeurs <code>--tl-1</code>, <code>--tl-2</code>, etc., sont générées automatiquement.
+  </p>
+</section>
+
+<section>
+  <h2>📊 Des exemples avancés avec ident()</h2>
+  <p>
+    La fonction <code>ident()</code> brille lorsqu'elle est combinée avec d'autres fonctions CSS comme
+    <code>attr()</code>.
+  </p>
+  <h3>Exemple avec attr() :</h3>
+  <pre>
+      <code class="language-css">
+.item {
+  view-timeline-name: ident("--item-" attr(id) "-tl");
+}
+
+label {
+  animation-name: ident("--item-" attr(for) "-tl");
+}
+      </code>
+    </pre>
+  <p>
+    Avec des identifiants comme <code>id="beach"</code> ou <code>id="house"</code>, les noms générés deviennent <code>--item-beach-tl</code>
+    et <code>--item-house-tl</code>.
+  </p>
+  <h3>Exemple avancé avec des variables CSS :</h3>
+  <pre>
+      <code class="language-css">
+.card[data-view-transition-id] {
+  --id: attr(data-view-transition-id);
+  view-transition-name: var(--id);
+  view-transition-class: card;
+
+  h1 {
+    view-transition-name: ident(var(--id) "-title");
+    view-transition-class: card-title;
+  }
+
+  .content {
+    view-transition-name: ident(var(--id) "-content");
+    view-transition-class: card-content;
+  }
+}
+      </code>
+    </pre>
+  <p>
+    Cette approche permet une personnalisation dynamique et structurée des noms CSS.
+  </p>
+</section>
+
+<section>
+  <h2>❓ Foire Aux Questions (FAQ)</h2>
+  <h3>Pourquoi ne pas utiliser directement attr() ?</h3>
+  <p>
+    <code>ident()</code> permet d'assembler des chaînes et des variables dynamiquement, ce que <code>attr()</code> ne
+    peut pas toujours faire efficacement.
+  </p>
+  <h3>Est-ce que cela fonctionne déjà dans les navigateurs ?</h3>
+  <p>
+    Non, cette fonctionnalité est encore au stade de proposition et n'est pas encore prise en charge par les
+    navigateurs.
+  </p>
+</section>
+
+<section>
+  <h2>🚀 Conclusion</h2>
+  <p>
+    La fonction <code>ident()</code> représente une avancée majeure pour les développeurs CSS. Elle promet de simplifier
+    la gestion des identifiants uniques et de réduire considérablement les redondances dans les feuilles de style.
+  </p>
+  <p>
+    Bien que cette fonctionnalité ne soit pas encore disponible, elle ouvre la voie à des pratiques CSS plus efficaces
+    et évolutives.
+  </p>
+</section>
+
+<footer>
+  <p>Source : <a
+    href="https://www.bram.us/2024/12/18/the-future-of-css-construct-custom-idents-and-dashed-idents-with-ident/?ref=dailydev"
+    target="_blank">Bram.us</a></p>
+</footer>

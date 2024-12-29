@@ -1,5 +1,23 @@
 [
   {
+    "id": 17,
+    "title": "Pico CSS : Le Framework Minimaliste pour des Interfaces Élégantes et Modernes",
+    "slug": "pico-css-le-framework-minimaliste-interfaces-elegantes-modernes",
+    "imageName": "pico-css-le-framework-minimaliste-interfaces-elegantes-modernes",
+    "metaDescription": "Découvrez Pico CSS : le framework CSS minimaliste pour des interfaces modernes, élégantes et accessibles. Installation facile, rendu soigné, et design intuitif.",
+    "metaKeywords": "Pico CSS, framework CSS minimaliste, CSS léger, design responsive, accessibilité CSS, développement front-end, installation Pico CSS, exemples Pico CSS, alternatives Bootstrap, tendances CSS.",
+    "uploadDate": "2024-12-29"
+  },
+  {
+    "id": 16,
+    "title": "Le Futur du CSS : Créez des valeurs <custom-ident> et <dashed-ident> avec ident()",
+    "slug": "le-futur-css-creez-valeurs-custom-ident-dashed-ident-ident",
+    "imageName": "le-futur-css-creez-valeurs-custom-ident-dashed-ident-ident",
+    "metaDescription": "Découvrez la fonction CSS ident() : une innovation pour générer des identifiants dynamiques et uniques. Simplifiez vos animations, transitions et plus encore avec cette nouvelle fonctionnalité.",
+    "metaKeywords": "CSS ident, ident(), identifiant CSS, identifiant dynamique CSS, CSS moderne, futur du CSS, animation CSS, transition CSS, meilleures pratiques CSS, développement front-end.",
+    "uploadDate": "2024-12-28"
+  },
+  {
     "id": 15,
     "title": "CSS Scroll Snap : Offrez une expérience de défilement fluide à vos utilisateurs",
     "slug": "css-scroll-snap-offrez-experience-defilement-fluide-utilisateurs",
