@@ -1,11 +1,29 @@
 [
   {
+    "id": 19,
+    "title": "Responsive Design vs Adaptive Design : quelle approche choisir ?",
+    "slug": "responsive-design-vs-adaptive-design-approche-choisir",
+    "imageName": "responsive-design-vs-adaptive-design-approche-choisir",
+    "metaDescription": "Responsive Design ou Adaptive Design ? Découvrez les différences, avantages et inconvénients de chaque approche pour choisir la meilleure stratégie pour vos projets web.",
+    "metaKeywords": "Responsive Design, Adaptive Design, conception web, optimisation mobile, développement front-end, media queries, performances web, comparaison design web, meilleure stratégie design, expérience utilisateur",
+    "uploadDate": "2024-12-31"
+  },
+  {
+    "id": 18,
+    "title": "L'art des micro-interactions avec CSS : améliorez l'expérience utilisateur",
+    "slug": "lart-micro-interactions-css-ameliorez-lexperience-utilisateur",
+    "imageName": "lart-micro-interactions-css-ameliorez-lexperience-utilisateur",
+    "metaDescription": "Découvrez comment les micro-interactions CSS transforment l'expérience utilisateur avec des animations subtiles et engageantes. Apprenez à les maîtriser avec des exemples pratiques.",
+    "metaKeywords": "CSS micro-interactions, animations CSS, UX design, amélioration expérience utilisateur, exemples CSS, transitions CSS, effets interactifs, bonnes pratiques CSS, design web, astuces CSS",
+    "uploadDate": "2024-12-30"
+  },
+  {
     "id": 17,
     "title": "Pico CSS : Le Framework Minimaliste pour des Interfaces Élégantes et Modernes",
     "slug": "pico-css-le-framework-minimaliste-interfaces-elegantes-modernes",
     "imageName": "pico-css-le-framework-minimaliste-interfaces-elegantes-modernes",
     "metaDescription": "Découvrez Pico CSS : le framework CSS minimaliste pour des interfaces modernes, élégantes et accessibles. Installation facile, rendu soigné, et design intuitif.",
-    "metaKeywords": "Pico CSS, framework CSS minimaliste, CSS léger, design responsive, accessibilité CSS, développement front-end, installation Pico CSS, exemples Pico CSS, alternatives Bootstrap, tendances CSS.",
+    "metaKeywords": "Pico CSS, framework CSS minimaliste, CSS léger, design responsive, accessibilité CSS, développement front-end, installation Pico CSS, exemples Pico CSS, alternatives Bootstrap, tendances CSS",
     "uploadDate": "2024-12-29"
   },
   {
@@ -14,7 +32,7 @@
     "slug": "le-futur-css-creez-valeurs-custom-ident-dashed-ident-ident",
     "imageName": "le-futur-css-creez-valeurs-custom-ident-dashed-ident-ident",
     "metaDescription": "Découvrez la fonction CSS ident() : une innovation pour générer des identifiants dynamiques et uniques. Simplifiez vos animations, transitions et plus encore avec cette nouvelle fonctionnalité.",
-    "metaKeywords": "CSS ident, ident(), identifiant CSS, identifiant dynamique CSS, CSS moderne, futur du CSS, animation CSS, transition CSS, meilleures pratiques CSS, développement front-end.",
+    "metaKeywords": "CSS ident, ident(), identifiant CSS, identifiant dynamique CSS, CSS moderne, futur du CSS, animation CSS, transition CSS, meilleures pratiques CSS, développement front-end",
     "uploadDate": "2024-12-28"
   },
   {
@@ -23,7 +41,7 @@
     "slug": "css-scroll-snap-offrez-experience-defilement-fluide-utilisateurs",
     "imageName": "css-scroll-snap-offrez-experience-defilement-fluide-utilisateurs",
     "metaDescription": "Découvrez CSS Scroll Snap : optimisez le défilement de vos pages web pour une navigation fluide, précise et intuitive. Maîtrisez cette fonctionnalité CSS essentielle.",
-    "metaKeywords": "CSS Scroll Snap, défilement fluide CSS, scroll-snap-type, scroll-snap-align, carrousel CSS, galerie CSS, défilement web, optimisation défilement CSS, expérience utilisateur, CSS moderne.\n\n",
+    "metaKeywords": "CSS Scroll Snap, défilement fluide CSS, scroll-snap-type, scroll-snap-align, carrousel CSS, galerie CSS, défilement web, optimisation défilement CSS, expérience utilisateur, CSS moderne",
     "uploadDate": "2024-12-27"
   },
   {
@@ -32,7 +50,7 @@
     "slug": "react-19-fonctionnalites-devez-connaitre",
     "imageName": "react-19-fonctionnalites-devez-connaitre",
     "metaDescription": "Découvrez les nouveautés de React 19 : Actions, nouveaux Hooks, amélioration du rendu serveur et bien plus. Boostez vos applications avec ces fonctionnalités clés.",
-    "metaKeywords": "React 19, nouveautés React, React Hooks, Actions React, hydratation React, Context API React, composants personnalisés React, mise à niveau React 19, guide React 19, développement React.",
+    "metaKeywords": "React 19, nouveautés React, React Hooks, Actions React, hydratation React, Context API React, composants personnalisés React, mise à niveau React 19, guide React 19, développement React",
     "uploadDate": "2024-12-26"
   },
   {
@@ -41,7 +59,7 @@
     "slug": "css-grid-larchitecte-seducteur-mises-page-modernes",
     "imageName": "css-grid-larchitecte-seducteur-mises-page-modernes",
     "metaDescription": "Découvrez CSS Grid, l'outil incontournable pour des mises en page modernes et dynamiques. Maîtrisez ses propriétés, ses avantages, et apprenez à le combiner avec Flexbox pour des designs optimaux.",
-    "metaKeywords": "CSS Grid, mise en page CSS, architecture CSS, flexbox vs grid, design responsive, grid-template, layout CSS, alignement CSS, grille CSS, tutoriel CSS Grid, exemple CSS Grid, développement front-end.",
+    "metaKeywords": "CSS Grid, mise en page CSS, architecture CSS, flexbox vs grid, design responsive, grid-template, layout CSS, alignement CSS, grille CSS, tutoriel CSS Grid, exemple CSS Grid, développement front-end",
     "uploadDate": "2024-12-25"
   },
   {

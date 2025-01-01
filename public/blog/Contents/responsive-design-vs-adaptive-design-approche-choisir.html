@@ -1,0 +1,131 @@
+<article>
+  <p>
+    Découvrez les différences fondamentales entre le Responsive Design et l'Adaptive Design, leurs avantages, leurs
+    inconvénients et les cas d'utilisation idéaux pour chaque approche.
+  </p>
+
+  <section>
+    <h2>🌍 Qu'est-ce que le Responsive Design ?</h2>
+    <p>
+      Le Responsive Design est une approche de conception web où les éléments de la page s'adaptent dynamiquement à la
+      taille de l'écran. Grâce aux media queries CSS, un seul code source permet d'offrir une expérience optimale sur
+      tous les appareils.
+    </p>
+    <h3>✅ Avantages du Responsive Design :</h3>
+    <ul>
+      <li><strong>Un seul code source :</strong> Plus facile à maintenir.</li>
+      <li><strong>Expérience utilisateur fluide :</strong> Les éléments s'ajustent automatiquement.</li>
+      <li><strong>SEO-friendly :</strong> Google privilégie les sites responsive.</li>
+    </ul>
+    <h3>❌ Inconvénients :</h3>
+    <ul>
+      <li><strong>Temps de chargement :</strong> Les ressources inutilisées peuvent être chargées sur mobile.</li>
+      <li><strong>Complexité accrue :</strong> Le design doit être pensé pour tous les formats d'écran.</li>
+    </ul>
+    <h3>🛠️ Exemple de Media Query :</h3>
+    <pre>
+      <code class="language-css">
+body {
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+      </code>
+    </pre>
+  </section>
+
+  <section>
+    <h2>📱 Qu'est-ce que l'Adaptive Design ?</h2>
+    <p>
+      L'Adaptive Design utilise plusieurs mises en page fixes, chacune conçue pour une taille d'écran spécifique. Le
+      serveur ou le navigateur détermine quelle version afficher.
+    </p>
+    <h3>✅ Avantages de l'Adaptive Design :</h3>
+    <ul>
+      <li><strong>Optimisation spécifique :</strong> Chaque version est optimisée pour une taille d'écran précise.</li>
+      <li><strong>Performance améliorée :</strong> Pas de ressources inutiles chargées.</li>
+    </ul>
+    <h3>❌ Inconvénients :</h3>
+    <ul>
+      <li><strong>Coût élevé :</strong> Nécessite plusieurs versions du site.</li>
+      <li><strong>Maintenance complexe :</strong> Chaque version doit être mise à jour séparément.</li>
+    </ul>
+    <h3>🛠️ Exemple d'Adaptive Design :</h3>
+    <pre>
+      <code class="language-javascript">
+if (window.innerWidth <= 768) {
+  loadMobileVersion();
+} else {
+  loadDesktopVersion();
+}
+      </code>
+    </pre>
+  </section>
+
+  <section>
+    <h2>🤔 Responsive vs Adaptive : Comment choisir ?</h2>
+    <p>
+      Le choix entre Responsive et Adaptive Design dépend des objectifs du projet :
+    </p>
+    <ul>
+      <li><strong>Responsive :</strong> Idéal pour les sites web généralistes et les blogs.</li>
+      <li><strong>Adaptive :</strong> Parfait pour des applications complexes ou des sites nécessitant une performance
+        optimale.
+      </li>
+    </ul>
+    <h3>💡 Tableau comparatif :</h3>
+    <table>
+      <tr>
+        <th>Critères</th>
+        <th>Responsive Design</th>
+        <th>Adaptive Design</th>
+      </tr>
+      <tr>
+        <td>Flexibilité</td>
+        <td>Très flexible</td>
+        <td>Limitée</td>
+      </tr>
+      <tr>
+        <td>Performance</td>
+        <td>Variable</td>
+        <td>Optimale</td>
+      </tr>
+      <tr>
+        <td>Coût</td>
+        <td>Économique</td>
+        <td>Élevé</td>
+      </tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>🔗 Ressources supplémentaires</h2>
+    <ul>
+      <li><a href="https://www.smashingmagazine.com/" target="_blank">Smashing Magazine</a></li>
+      <li><a href="https://web.dev/responsive-web-design-basics/" target="_blank">Web.dev Responsive Design Guide</a>
+      </li>
+      <li><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design" target="_blank">MDN
+        Responsive Design Guide</a></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>🚀 Conclusion</h2>
+    <p>
+      Le Responsive Design et l'Adaptive Design ont chacun leurs forces et faiblesses. Le choix dépend de vos objectifs,
+      de votre budget et des besoins de vos utilisateurs.
+    </p>
+    <p>
+      L'idéal ? Une combinaison judicieuse des deux approches pour offrir une expérience utilisateur optimale.
+    </p>
+  </section>
+
+  <footer>
+    <p>Sources : <a href="https://web.dev/responsive-web-design-basics/" target="_blank">web.dev</a>, <a
+      href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design" target="_blank">MDN</a></p>
+  </footer>
+</article>
