@@ -1,5 +1,14 @@
 [
   {
+    "id": 20,
+    "title": "Amour ou simple crush ? Pourquoi Chakra UI vous fait tourner la tête",
+    "slug": "amour-simple-crush-pourquoi-chakra-ui-fait-tourner-tete",
+    "imageName": "amour-simple-crush-pourquoi-chakra-ui-fait-tourner-tete",
+    "metaDescription": "Découvrez pourquoi Chakra UI séduit les développeurs avec sa flexibilité, ses composants modernes et son design accessible. Est-ce un simple crush ou le grand amour du front-end ?",
+    "metaKeywords": "Chakra UI, framework React, design accessible, UI components, front-end development, Chakra UI avantages, composants réactifs, design moderne, framework front-end, outils front-end.",
+    "uploadDate": "2024-01-20"
+  },
+  {
     "id": 19,
     "title": "Responsive Design vs Adaptive Design : quelle approche choisir ?",
     "slug": "responsive-design-vs-adaptive-design-approche-choisir",

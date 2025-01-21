@@ -15,6 +15,7 @@ const QuizPage = () => {
   const [answers, setAnswers] = useState<number[]>([]);
   const [isCompleted, setIsCompleted] = useState<boolean>(false);
   const [result, setResult] = useState<Framework | null>(null);
+  console.log(currentQuestion, answers, isCompleted, result);
 
   const handleAnswer = (optionIndex: number) => {
     const newAnswers = [...answers];
@@ -24,7 +25,7 @@ const QuizPage = () => {
     if (currentQuestion < questions.length - 1) {
       setCurrentQuestion(currentQuestion + 1);
     } else {
-      calculateResult(newAnswers);
+      calculateResult(answers);
       setIsCompleted(true);
     }
   };
@@ -40,9 +41,8 @@ const QuizPage = () => {
 
     answers.forEach((answerIndex, questionIndex) => {
       const mappings = questions[questionIndex].mappings;
-      mappings[answerIndex].forEach((frameworkIndex) => {
-        scores[frameworkIndex] += 1;
-      });
+      const frameworkIndex = mappings[answerIndex];
+      scores[frameworkIndex] += 1;
     });
 
     const maxScore = Math.max(...scores);
@@ -50,7 +50,6 @@ const QuizPage = () => {
 
     setResult(frameworks[bestMatchIndex]);
   };
-
   return (
     <div className="flex min-h-screen flex-col">
       <MetaHead
@@ -62,7 +61,8 @@ const QuizPage = () => {
       />
       <Navbar type="blank" />
 
-      <div className="flex flex-grow flex-col items-center bg-gradient-to-b from-blue-50 to-pink-50 p-6 max-md:pb-24 max-md:pt-12">
+      <div
+        className="flex flex-grow flex-col items-center bg-gradient-to-b from-blue-50 to-pink-50 p-6 max-md:pb-24 max-md:pt-12">
         {isCompleted ? (
           <div className="text-center">
             <h1 className="mb-4 text-3xl font-extrabold text-gray-800">
@@ -101,7 +101,7 @@ const QuizPage = () => {
                 <div
                   className="h-2 rounded-lg bg-blue-500"
                   style={{
-                    width: `${((currentQuestion + 1) / questions.length) * 100}%`,
+                    width: `${((currentQuestion + 1) / questions.length) * 100}%`
                   }}
                 ></div>
               </div>
@@ -116,7 +116,7 @@ const QuizPage = () => {
                 <button
                   key={index}
                   className="transform rounded-lg border border-gray-300 bg-white px-6 py-3 font-medium text-gray-700 shadow-md transition-transform hover:scale-105 hover:border-blue-500 hover:bg-blue-50"
-                  onClick={() => handleAnswer(index)}
+                  onClick={() => handleAnswer(questions[currentQuestion].mappings[index])}
                 >
                   {option}
                 </button>
@@ -127,7 +127,7 @@ const QuizPage = () => {
               <button
                 className={clsx(
                   "transform rounded-lg border border-gray-300 bg-white px-6 py-3 font-medium text-gray-700 shadow-md transition-transform hover:scale-105 hover:border-blue-500 hover:bg-blue-50",
-                  currentQuestion === 0 && "invisible",
+                  currentQuestion === 0 && "invisible"
                 )}
                 onClick={handlePrevious}
               >

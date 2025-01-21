@@ -66,81 +66,56 @@
   },
   {
     "id": 14,
-    "name": "CSS Grid Layout",
-    "description": "Un style de mise en page moderne, idéal pour des designs complexes et responsives avec un contrôle total sur la structure."
-  },
-  {
-    "id": 15,
-    "name": "Flexbox",
-    "description": "Une méthode de mise en page simple et efficace, idéale pour les designs alignés et centrés."
-  },
-  {
-    "id": 16,
     "name": "Chakra UI",
     "description": "Un framework React moderne qui offre des composants stylisés et personnalisables, pour un design cohérent et rapide."
   },
   {
-    "id": 17,
+    "id": 15,
     "name": "Ant Design",
     "description": "Un framework complet pour les développeurs qui cherchent une interface utilisateur professionnelle et bien pensée."
   },
   {
-    "id": 18,
+    "id": 16,
     "name": "Clarity",
     "description": "Un framework orienté vers les applications web avec un design clair et structuré, idéal pour les dashboards."
   },
   {
-    "id": 19,
+    "id": 17,
     "name": "Tachyons",
     "description": "Un framework utilitaire ultra-léger, conçu pour créer des interfaces rapidement sans avoir à écrire beaucoup de CSS."
   },
   {
-    "id": 20,
+    "id": 18,
     "name": "Pico.css",
     "description": "Un framework CSS minimaliste et élégant, parfait pour des projets qui nécessitent des styles par défaut beaux et simples."
   },
   {
-    "id": 21,
+    "id": 19,
     "name": "Skeleton",
     "description": "Un framework CSS très léger, offrant uniquement l'essentiel pour démarrer rapidement un projet."
   },
   {
-    "id": 22,
+    "id": 20,
     "name": "Milligram",
     "description": "Un framework minimaliste avec un accent sur la rapidité de mise en place et la simplicité des styles."
   },
   {
-    "id": 23,
+    "id": 21,
     "name": "Windi CSS",
     "description": "Un framework utilitaire similaire à Tailwind, mais encore plus rapide grâce à son approche générative."
   },
   {
-    "id": 24,
-    "name": "Open Props",
-    "description": "Un système de design basé sur des variables CSS personnalisées, parfait pour les développeurs qui veulent une flexibilité totale."
-  },
-  {
-    "id": 25,
-    "name": "Atomic CSS",
-    "description": "Une méthode de stylisation où chaque classe a une seule responsabilité. Idéal pour des projets hautement modulaires."
-  },
-  {
-    "id": 26,
-    "name": "Bootstrap Icons",
-    "description": "Une bibliothèque d'icônes complémentaire pour Bootstrap, parfaite pour enrichir les designs."
-  },
-  {
-    "id": 27,
+    "id": 22,
     "name": "Zurb Ink",
     "description": "Un framework CSS conçu spécifiquement pour les emails responsives. Idéal pour les développeurs centrés sur les campagnes de mailing."
   },
   {
-    "id": 28,
+    "id": 23,
     "name": "CSS Houdini",
     "description": "Un ensemble d'APIs expérimentales pour étendre les capacités du CSS, idéal pour les développeurs qui aiment repousser les limites."
   },
   {
-    "id": 29,
+    "id": 24,
     "name": "Compass",
     "description": "Un framework basé sur Sass, offrant des mixins puissants pour accélérer le développement CSS."
   }

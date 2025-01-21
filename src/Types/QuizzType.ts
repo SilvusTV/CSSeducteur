@@ -4,7 +4,7 @@ export type Question = {
   id: number;
   question: string;
   options: string[];
-  mappings: Mapping[];
+  mappings: Mapping;
 };
 
 export type Framework = {
