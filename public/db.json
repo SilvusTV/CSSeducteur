@@ -1,5 +1,14 @@
 [
   {
+    "id": 22,
+    "title": "PyScript : Faites du Python directement dans votre navigateur",
+    "slug": "pyscript-faites-python-directement-navigateur",
+    "imageName": "pyscript-faites-python-directement-navigateur",
+    "metaDescription": "Découvrez PyScript, l'outil innovant qui permet d'exécuter du Python directement dans le navigateur. Simplifiez vos projets web avec cette technologie révolutionnaire.",
+    "metaKeywords": "PyScript, Python dans le navigateur, développement web, framework PyScript, exécution Python, PyScript tutoriel, programmation Python web, visualisation de données Python, outils front-end Python, PyScript guide",
+    "uploadDate": "2024-01-22"
+  },
+  {
     "id": 21,
     "title": "Devenez expert en automatisation de tests grâce à Playwright",
     "slug": "devenez-expert-automatisation-tests-grace-playwright",

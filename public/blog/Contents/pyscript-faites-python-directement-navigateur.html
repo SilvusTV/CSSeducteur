@@ -1,0 +1,127 @@
+<p>
+  Découvrez comment PyScript révolutionne le développement web en permettant d'exécuter du code Python directement dans
+  le navigateur. De l'installation à vos premiers scripts, plongez dans cet outil innovant.
+</p>
+
+<section>
+  <h2>🔍 Qu'est-ce que PyScript ?</h2>
+  <p>
+    PyScript est un projet open-source qui combine la puissance de Python et la flexibilité du web. Il permet aux
+    développeurs d'écrire et d'exécuter du code Python directement dans le navigateur, en utilisant des balises HTML.
+    Basé sur Pyodide, PyScript intègre un interpréteur Python complet dans le navigateur.
+  </p>
+  <p>
+    Que vous soyez développeur Python, data scientist ou passionné de programmation, PyScript ouvre de nouvelles
+    perspectives pour créer des interfaces utilisateur dynamiques et des applications web riches.
+  </p>
+</section>
+
+<section>
+  <h2>⚙️ Comment fonctionne PyScript ?</h2>
+  <p>
+    PyScript s'intègre dans le HTML en utilisant une balise spécifique : <code>&lt;py-script&gt;</code>. Le code Python
+    que vous écrivez dans cette balise est interprété directement dans le navigateur grâce à WebAssembly (WASM).
+  </p>
+  <h3>🛠️ Exemple simple :</h3>
+  <pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;script defer src=&quot;https://pyscript.net/latest/pyscript.js&quot;&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;py-script&gt;
+    print(&quot;Bonjour depuis PyScript !&quot;)
+  &lt;/py-script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+  <p>
+    En incluant PyScript via son CDN, vous pouvez exécuter du Python sans installation supplémentaire.
+  </p>
+</section>
+
+<section>
+  <h2>🚀 Fonctionnalités clés de PyScript</h2>
+  <ul>
+    <li><strong>Exécution Python dans le navigateur :</strong> Plus besoin de backend pour tester vos scripts simples.
+    </li>
+    <li><strong>Bibliothèques Python supportées :</strong> Accédez à des bibliothèques populaires comme NumPy et Pandas.
+    </li>
+    <li><strong>Interactivité :</strong> Créez des interfaces utilisateur interactives avec Python.</li>
+    <li><strong>Intégration facile :</strong> Compatible avec HTML et CSS pour un rendu soigné.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>📚 Premiers pas avec PyScript</h2>
+  <h3>1. Ajouter PyScript à votre projet</h3>
+  <p>
+    Intégrez PyScript en ajoutant simplement ce script dans votre HTML :
+  </p>
+  <pre><code class="language-html">
+&lt;script defer src=&quot;https://pyscript.net/latest/pyscript.js&quot;&gt;&lt;/script&gt;
+  </code></pre>
+  <h3>2. Écrire du code Python</h3>
+  <p>
+    Utilisez la balise <code>&lt;py-script&gt;</code> pour ajouter du code Python directement dans votre HTML :
+  </p>
+  <pre><code class="language-html">&lt;py-script&gt;
+  import math
+  print(f&quot;Le carr&eacute; de 5 est {math.pow(5, 2)}&quot;)
+&lt;/py-script&gt;</code></pre>
+  <h3>3. Ajouter des bibliothèques Python</h3>
+  <p>
+    Importez des bibliothèques Python dans votre projet grâce à PyScript :
+  </p>
+  <pre><code class="language-html">&lt;py-env&gt;
+{
+  &quot;packages&quot;: [&quot;numpy&quot;]
+}
+&lt;/py-env&gt;
+&lt;py-script&gt;
+  import numpy as np
+  arr = np.array([1, 2, 3])
+  print(arr)
+&lt;/py-script&gt;</code></pre>
+</section>
+
+<section>
+  <h2>🔗 Cas d'utilisation de PyScript</h2>
+  <ul>
+    <li><strong>Visualisations de données :</strong> Intégrez des graphiques directement dans le navigateur avec des
+      bibliothèques comme Matplotlib.
+    </li>
+    <li><strong>Applications interactives :</strong> Créez des outils éducatifs ou des démonstrations interactives.</li>
+    <li><strong>Prototypage rapide :</strong> Testez rapidement des idées sans serveur backend.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>🚧 Limitations actuelles</h2>
+  <p>
+    Bien que prometteur, PyScript a encore des limites :
+  </p>
+  <ul>
+    <li><strong>Performance :</strong> Les applications complexes peuvent être plus lentes que celles écrites en
+      JavaScript natif.
+    </li>
+    <li><strong>Taille :</strong> Les fichiers nécessaires au fonctionnement de PyScript sont volumineux.</li>
+    <li><strong>Compatibilité :</strong> Certaines bibliothèques Python ne sont pas encore supportées.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>💡 Conclusion</h2>
+  <p>
+    PyScript représente une avancée majeure pour les développeurs Python souhaitant explorer le développement web sans
+    apprendre JavaScript. Bien qu'il ait des limites, son potentiel pour créer des expériences utilisateur interactives
+    est énorme.
+  </p>
+  <p>
+    Alors, prêt à essayer PyScript ? Commencez dès maintenant et découvrez une nouvelle façon de combiner Python et web
+    !
+  </p>
+</section>
+
+<footer>
+  <p>Source : <a href="https://pyscript.net/" target="_blank">Site officiel de PyScript</a></p>
+</footer>
