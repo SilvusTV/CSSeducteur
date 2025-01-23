@@ -1,5 +1,14 @@
 [
   {
+    "id": 23,
+    "title": "Vue.js vs React : Lequel choisir pour votre prochain projet ?",
+    "slug": "vuejs-vs-react-lequel-choisir-prochain-projet",
+    "imageName": "vuejs-vs-react-lequel-choisir-prochain-projet",
+    "metaDescription": "Découvrez un comparatif objectif entre Vue.js et React, deux géants du développement front-end, pour choisir la technologie idéale selon vos besoins.",
+    "metaKeywords": "Vue.js vs React, comparatif frameworks JavaScript, choisir framework front-end, Vue.js ou React, développement web, comparaison Vue React, outils front-end, React avantages, Vue.js fonctionnalités",
+    "uploadDate": "2024-01-23"
+  },
+  {
     "id": 22,
     "title": "PyScript : Faites du Python directement dans votre navigateur",
     "slug": "pyscript-faites-python-directement-navigateur",
